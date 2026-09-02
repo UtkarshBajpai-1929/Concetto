@@ -11,10 +11,10 @@ import {
 import { Mail, MapPin } from "lucide-react";
 
 const links = [
-  { name: "Events", href: "#events" },
-  { name: "Workshops", href: "#workshops" },
-  { name: "About Us", href: "#about-us" },
-  { name: "Teams", href: "#teams" },
+  { name: "Events", href: "events" },
+  { name: "Workshops", href: "workshops" },
+  { name: "About Us", href: "about-us" },
+  { name: "Teams", href: "teams" },
   { name: "IIT (ISM)", href: "https://www.iitism.ac.in/" },
 ];
 
@@ -53,7 +53,7 @@ export default function Footer() {
 
             <div className="mt-3 h-px w-32 bg-[var(--primary)]/50" />
 
-            <p className="mt-7 max-w-xs text-sm leading-7 text-[var(--text-muted)]">
+            <p className="mt-7 max-w-xs text-sm leading-7">
               If you have any questions or need help, feel free to contact
               the Concetto team.
             </p>
@@ -66,7 +66,7 @@ export default function Footer() {
               concetto@iitism.ac.in
             </a>
 
-            <div className="mt-6 flex items-start gap-3 text-sm leading-6 text-[var(--text-muted)]">
+            <div className="mt-6 flex items-start gap-3 text-sm leading-6">
               <MapPin
                 size={19}
                 className="mt-1 shrink-0 text-[var(--primary)]"
@@ -95,7 +95,7 @@ export default function Footer() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className="w-fit text-sm font-medium text-[var(--text-muted)] transition-all duration-300 hover:translate-x-1 hover:text-[var(--primary)]"
+                  className="w-fit text-sm font-medium transition-all duration-300 hover:translate-x-1 hover:text-[var(--primary)]"
                 >
                   {link.name}
                 </Link>
@@ -113,7 +113,7 @@ export default function Footer() {
 
             <Link
               href="#merchandise"
-              className="mt-7 block w-fit text-sm font-medium text-[var(--text-muted)] transition-colors hover:text-[var(--primary)]"
+              className="mt-7 block w-fit text-sm font-medium transition-colors hover:text-[var(--primary)]"
             >
               T-Shirts
             </Link>
@@ -129,7 +129,7 @@ export default function Footer() {
 
             <a
               href="mailto:sponsorship.concetto@iitism.ac.in"
-              className="mt-7 flex items-start gap-3 text-sm font-medium leading-6 text-[var(--text-muted)] transition-colors hover:text-[var(--primary)]"
+              className="mt-7 flex items-start gap-3 text-sm font-medium leading-6 transition-colors hover:text-[var(--primary)]"
             >
               <Mail
                 size={19}
@@ -144,7 +144,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="mt-12 flex flex-col items-center justify-between gap-6 border-t border-[var(--border)] pt-7 md:flex-row">
 
-          <p className="text-xs text-[var(--text-muted)]">
+          <p className="text-xs">
             © 2026 Concetto, IIT (ISM) Dhanbad. All rights reserved.
           </p>
 
@@ -158,7 +158,7 @@ export default function Footer() {
                   key={social.label}
                   href={social.href}
                   aria-label={social.label}
-                  className="flex h-10 w-10 items-center justify-center rounded-full border border-[var(--border)] text-[var(--text-muted)] transition-all duration-300 hover:border-[var(--primary)] hover:bg-[var(--primary)] hover:text-white"
+                  className="flex h-10 w-10 items-center justify-center rounded-full border border-[var(--border)] transition-all duration-300 hover:border-[var(--primary)] hover:bg-[var(--primary)] hover:text-white"
                 >
                   <Icon size={17} />
                 </a>
