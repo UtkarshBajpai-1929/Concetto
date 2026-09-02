@@ -26,8 +26,6 @@ export default function Timeline() {
       className="relative overflow-hidden bg-[var(--background)] px-5 md:px-10"
     >
       <div className="mx-auto max-w-[1200px]">
-
-        {/* Heading */}
         <div className="mb-10 text-center">
           <p className="mb-2 text-xs font-semibold uppercase tracking-[0.3em] text-[var(--primary)]">
             Fest Timeline
@@ -42,8 +40,7 @@ export default function Timeline() {
           </p>
         </div>
 
-        {/* Dates */}
-        <div className="mb-12 flex justify-center gap-2 overflow-x-auto pb-2">
+        <div className="mb-12 flex justify-start gap-2 overflow-x-auto px-3 pb-2 md:justify-center md:px-0">
           {timelineData.map((day, index) => (
             <button
               key={day.date}
@@ -59,17 +56,13 @@ export default function Timeline() {
           ))}
         </div>
 
-        {/* Selected date */}
         <div className="mb-7 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
             {currentDay.date}
           </p>
         </div>
 
-        {/* Timeline */}
         <div className="relative mx-auto max-w-[850px]">
-
-          {/* Center line */}
           <div className="absolute bottom-0 left-1/2 top-0 hidden w-px -translate-x-1/2 bg-gradient-to-b from-transparent via-[var(--primary)]/50 to-transparent md:block" />
 
           <div className="space-y-5">
@@ -78,7 +71,6 @@ export default function Timeline() {
                 key={`${event.title}-${index}`}
                 className="relative"
               >
-                {/* Node */}
                 <div className="absolute left-1/2 top-1/2 z-10 hidden h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[var(--primary)] shadow-[0_0_15px_var(--primary)] md:block" />
 
                 <TimelineItem
@@ -90,7 +82,6 @@ export default function Timeline() {
           </div>
         </div>
 
-        {/* View Full Schedule */}
         {currentDay.events.length > 3 && (
           <div className="mt-10 flex justify-center">
             <button
@@ -113,7 +104,6 @@ export default function Timeline() {
             </button>
           </div>
         )}
-
       </div>
     </section>
   );

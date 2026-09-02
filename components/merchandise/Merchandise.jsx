@@ -106,7 +106,7 @@ export default function Merchandise() {
 
             {/* Buy */}
             <a
-              href="YOUR_FORM_LINK"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfpnKXmFJCNMBioSIQ3lcxWpqXILSBiXlYHupIY5gDsUHlRDA/viewform?usp=publish-editor"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-5 flex items-center justify-center gap-3 rounded-xl bg-[var(--primary)] px-6 py-4 text-sm font-semibold transition hover:-translate-y-0.5 hover:shadow-lg"

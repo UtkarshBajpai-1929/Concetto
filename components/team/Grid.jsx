@@ -5,6 +5,7 @@ export default function Grid({ members }) {
      "convener",
     "secretariat",
     "coordinators",
+    "co-coordinators",
     "pr",
     "event",
     "sponsorship",

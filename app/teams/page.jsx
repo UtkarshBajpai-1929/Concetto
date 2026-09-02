@@ -21,8 +21,6 @@ export default function TeamPage() {
   return (
     <main className="min-h-screen bg-[var(--background)]">
       <Hero />
-      <Stats team={team} />
-
       <Filters
         active={active}
         setActive={setActive}

@@ -50,7 +50,7 @@ export default function Accommodation() {
 
           {/* Official form */}
           <a
-            href="#"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdjceqjXB7BJhZT4LKZMeFvKzsv91WwTQjLmy7MgoNEkerS2g/viewform?usp=publish-editor"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 inline-flex items-center gap-2 rounded-full border border-[var(--primary)]/40 bg-[var(--surface)] px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-[var(--primary)] transition-all duration-300 hover:border-[var(--primary)] hover:bg-[var(--primary)] hover:text-white"
@@ -62,7 +62,7 @@ export default function Accommodation() {
           {/* Main CTA */}
           <div className="mt-8">
             <a
-              href="#"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdjceqjXB7BJhZT4LKZMeFvKzsv91WwTQjLmy7MgoNEkerS2g/viewform?usp=publish-editor"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 rounded-lg bg-[var(--primary)] px-7 py-4 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_10px_35px_rgba(232,80,2,0.25)]"
@@ -145,7 +145,7 @@ export default function Accommodation() {
           </p>
 
           <a
-            href="#"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdjceqjXB7BJhZT4LKZMeFvKzsv91WwTQjLmy7MgoNEkerS2g/viewform?usp=publish-editor"
             target="_blank"
             rel="noopener noreferrer"
             className="group mt-8 inline-flex items-center gap-3 rounded-lg bg-[var(--primary)] px-7 py-4 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_10px_35px_rgba(232,80,2,0.25)]"
