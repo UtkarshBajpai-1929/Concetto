@@ -60,7 +60,7 @@ title: "Cosmolligence",
 category: "gaming",
 description:
 "An exciting esports showdown where gaming teams battle with skill and strategy to claim victory.",
-image: "/events/cosmolligence.png",
+image: "/events/Cosmolligence.png",
 mode: "Offline",
 href: "#",
 },
