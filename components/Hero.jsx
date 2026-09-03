@@ -92,7 +92,7 @@ export default function Hero() {
           <span className="h-1.5 w-1.5 rounded-full bg-(--primary)" />
         </div>
       </div>
-      <div className="relative z-10 flex min-h-[calc(100vh-6rem)] flex-col items-center justify-center px-6 text-center">
+      <div className="relative z-10 flex min-h-[calc(100vh-6rem)] flex-col items-center justify-center px-6 text-center md:">
 
         <p className="mb-4 text-xs font-medium uppercase tracking-[0.5em] text-(--text-muted) md:text-sm">
           IIT (ISM) Dhanbad presents
