@@ -75,22 +75,30 @@ export default function Levels() {
         <div className="space-y-3 md:hidden">
           {sponsorshipLevels.map((level) => (
             <div key={level.number} className="flex items-center gap-3">
-              <span className="w-6 text-xs text-[var(--muted)]">
+              <span className="w-6 shrink-0 text-xs text-[var(--muted)]">
                 {level.number}
               </span>
 
               <div className="min-w-0 flex-1">
                 <div
-                  className="flex h-11 items-center rounded-r-lg border border-[var(--primary)]/30 bg-[var(--surface)]/70 px-3"
-                  style={{ width: `${(level.value / 7) * 100}%` }}
+                  className="flex h-11 min-w-fit items-center gap-3 rounded-r-lg border border-[var(--primary)]/30 bg-[var(--surface)]/70 px-3"
+                  style={{
+                    width: `${(level.value / 7) * 100}%`,
+                  }}
                 >
+                  <img
+                    src={`/sponsors/${level.number}.png`}
+                    alt=""
+                    className="h-8 w-8 shrink-0 object-contain"
+                  />
+
                   <span className="whitespace-nowrap text-[10px] font-semibold uppercase text-[var(--foreground)]">
                     {level.title}
                   </span>
                 </div>
               </div>
 
-              <span className="w-16 text-right text-xs font-semibold text-[var(--primary)]">
+              <span className="w-16 shrink-0 text-right text-xs font-semibold text-[var(--primary)]">
                 {level.amount}
               </span>
             </div>
