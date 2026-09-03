@@ -40,20 +40,30 @@ export default function Levels() {
               <div
                 className="relative flex w-full items-end justify-center border border-[var(--primary)]/40 bg-[var(--surface)]/70 transition-all duration-300 group-hover:-translate-y-2 group-hover:border-[var(--primary)]"
                 style={{
-                  height: `${170 + level.value * 25}px`,
+                  height: `${210 + level.value * 25}px`,
                   clipPath:
-                    "polygon(50% 0%,100% 14%,100% 92%,85% 100%,15% 100%,0% 92%,0% 14%)",
+                    "polygon(50% 0%, 100% 14%, 100% 92%, 85% 100%, 15% 100%, 0% 92%, 0% 14%)",
                 }}
               >
-                <div className="absolute top-6 flex h-12 w-12 items-center justify-center rounded-full border border-(--primary)/50 bg-(--primary) text-sm text-(--foreground))">
+                {/* Number */}
+                <div className="absolute top-6 flex h-12 w-12 items-center justify-center rounded-full border border-[var(--primary)]/50 bg-[var(--primary)] text-sm font-semibold text-[var(--foreground)]">
                   {level.number}
                 </div>
 
+                {/* Sponsor Logo */}
+                <img
+                  src={`/sponsors/${level.number}.png`}
+                  alt={level.title}
+                  className="absolute bottom-20 left-1/2 h-20 w-20 -translate-x-1/2 object-contain"
+                />
+
+                {/* Title */}
                 <p className="mb-5 w-[90%] text-center text-xs font-semibold uppercase leading-4 text-[var(--foreground)]">
                   {level.title}
                 </p>
               </div>
 
+              {/* Amount */}
               <p className="mt-3 text-sm font-semibold text-[var(--foreground)]">
                 {level.amount}
               </p>
