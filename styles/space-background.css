@@ -1,0 +1,298 @@
+/* =========================
+   SPACE BACKGROUND
+========================= */
+
+.space-dust {
+  position: absolute;
+  inset: 0;
+  opacity: 0.25;
+  background-image:
+    radial-gradient(circle at 20% 30%, #ffffff 0 1px, transparent 1px),
+    radial-gradient(circle at 70% 20%, #ffffff 0 1px, transparent 1px),
+    radial-gradient(circle at 40% 80%, #ffffff 0 1px, transparent 1px),
+    radial-gradient(circle at 85% 70%, #ffffff 0 1px, transparent 1px);
+  background-size: 180px 180px, 240px 240px, 200px 200px, 300px 300px;
+}
+
+/* =========================
+   NEBULA
+========================= */
+
+.nebula {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.22;
+}
+
+.nebula-1 {
+  width: 55vw;
+  height: 35vw;
+  top: -10%;
+  left: -15%;
+  background: #c10801;
+  transform: rotate(-20deg);
+}
+
+.nebula-2 {
+  width: 50vw;
+  height: 30vw;
+  right: -15%;
+  top: 25%;
+  background: #e85002;
+  filter: blur(110px);
+}
+
+.nebula-3 {
+  width: 40vw;
+  height: 25vw;
+  left: 25%;
+  bottom: -15%;
+  background: #5c0800;
+  filter: blur(120px);
+}
+
+/* =========================
+   PLANETS
+========================= */
+
+.planet {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.planet-1 {
+  width: clamp(180px, 22vw, 360px);
+  height: clamp(180px, 22vw, 360px);
+  right: -7%;
+  top: 12%;
+}
+
+.planet-1 .planet-glow {
+  position: absolute;
+  inset: -20%;
+  border-radius: 50%;
+  background: rgba(241, 96, 1, 0.18);
+  filter: blur(35px);
+}
+
+.planet-1 .planet-surface {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle at 35% 30%,
+      #6b250d 0%,
+      #321008 35%,
+      #090909 70%,
+      #000 100%
+    );
+  box-shadow:
+    inset -35px -25px 70px rgba(0, 0, 0, 0.95),
+    inset 15px 10px 30px rgba(241, 96, 1, 0.2),
+    0 0 50px rgba(193, 8, 1, 0.2);
+}
+
+.planet-1 .planet-ring {
+  position: absolute;
+  width: 145%;
+  height: 35%;
+  left: -22%;
+  top: 32%;
+  border: 1px solid rgba(241, 96, 1, 0.35);
+  border-radius: 50%;
+  transform: rotate(-18deg);
+  box-shadow: 0 0 20px rgba(241, 96, 1, 0.12);
+}
+
+/* Small planet */
+
+.planet-2 {
+  width: 70px;
+  height: 70px;
+  left: 8%;
+  bottom: 15%;
+}
+
+.planet-2 .planet-glow {
+  position: absolute;
+  inset: -40%;
+  border-radius: 50%;
+  background: rgba(232, 80, 2, 0.15);
+  filter: blur(20px);
+}
+
+.planet-2 .planet-surface {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle at 30% 25%,
+      #8b3215,
+      #351006 55%,
+      #050505 100%
+    );
+  box-shadow: inset -15px -10px 25px #000;
+}
+
+/* =========================
+   SPACESHIP
+========================= */
+
+.spaceship {
+  position: absolute;
+  width: 130px;
+  height: 70px;
+  right: 23%;
+  top: 25%;
+  transform: rotate(-15deg);
+  opacity: 0.65;
+  filter: drop-shadow(0 0 12px rgba(241, 96, 1, 0.4));
+}
+
+.ship-body {
+  position: absolute;
+  width: 90px;
+  height: 25px;
+  left: 20px;
+  top: 22px;
+  background: linear-gradient(
+    90deg,
+    #222,
+    #777,
+    #ddd,
+    #555
+  );
+  clip-path: polygon(
+    0 50%,
+    25% 10%,
+    75% 10%,
+    100% 50%,
+    75% 90%,
+    25% 90%
+  );
+}
+
+.ship-wing {
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  background: #292929;
+}
+
+.ship-wing-left {
+  left: 5px;
+  top: 35px;
+  transform: skewX(-35deg);
+}
+
+.ship-wing-right {
+  right: 5px;
+  top: 35px;
+  transform: skewX(35deg);
+}
+
+.ship-engine {
+  position: absolute;
+  width: 10px;
+  height: 8px;
+  left: 13px;
+  top: 30px;
+  border-radius: 50%;
+  background: #e85002;
+  box-shadow:
+    0 0 8px #e85002,
+    0 0 18px rgba(232, 80, 2, 0.8);
+}
+
+.ship-engine-2 {
+  left: 7px;
+  top: 42px;
+}
+
+/* =========================
+   SATELLITE
+========================= */
+
+.satellite {
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  left: 20%;
+  top: 18%;
+  transform: rotate(20deg);
+  opacity: 0.3;
+}
+
+.satellite-body {
+  position: absolute;
+  width: 28px;
+  height: 38px;
+  left: 36px;
+  top: 15px;
+  border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    #333,
+    #aaa,
+    #444
+  );
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.solar-panel {
+  position: absolute;
+  width: 30px;
+  height: 45px;
+  top: 12px;
+  border: 1px solid #555;
+  background:
+    linear-gradient(90deg, transparent 48%, #555 49%, #555 51%, transparent 52%),
+    linear-gradient(0deg, transparent 48%, #555 49%, #555 51%, transparent 52%),
+    #111;
+}
+
+.panel-left {
+  left: 0;
+}
+
+.panel-right {
+  right: 0;
+}
+
+.satellite-arm {
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  background: #777;
+  left: 63px;
+  top: 33px;
+}
+
+/* =========================
+   ORBITS
+========================= */
+
+.orbit {
+  position: absolute;
+  border: 1px solid rgba(241, 96, 1, 0.08);
+  border-radius: 50%;
+}
+
+.orbit-1 {
+  width: 600px;
+  height: 180px;
+  right: -100px;
+  top: 5%;
+  transform: rotate(-25deg);
+}
+
+.orbit-2 {
+  width: 800px;
+  height: 250px;
+  left: -250px;
+  bottom: 5%;
+  transform: rotate(20deg);
+}
