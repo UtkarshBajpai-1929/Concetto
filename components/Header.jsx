@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Menu, Moon, Sun, X } from "lucide-react";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 const navItems = [
   { name: "Events", href: "/events" },
@@ -22,6 +23,8 @@ export default function Header() {
   const [scrolled, setScrolled] = useState(false);
 
   const { theme, setTheme } = useTheme();
+
+  const pathname = usePathname();
 
   useEffect(() => {
     setMounted(true);
@@ -111,18 +114,17 @@ export default function Header() {
     <Link
       key={item.name}
       href={item.href}
-      className="
+      className={`
         whitespace-nowrap
         text-xs
         font-medium
         uppercase
         tracking-wide
-        text-(--text-muted)
         transition-colors
         duration-200
-        hover:text-(--primary)
+        ${item.href == pathname ? "text-(--primary) " : "hover:text-(--primary) text-(--text-muted)"}
         xl:text-sm
-      "
+      `}
     >
       {item.name}
     </Link>
@@ -216,15 +218,15 @@ export default function Header() {
                 key={item.name}
                 href={item.href}
                 onClick={() => setOpen(false)}
-                className="
+                className={`
                   text-sm
                   font-medium
                   uppercase
                   tracking-wider
-                  text-(--foreground)
                   transition-colors
-                  hover:text-(--primary)
-                "
+                  ${item.href == pathname ? "text-(--primary)" : "hover:text-(--primary) text-(--foreground)"}
+                  
+                `}
               >
                 {item.name}
               </Link>
