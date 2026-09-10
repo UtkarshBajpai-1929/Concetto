@@ -1,4 +1,6 @@
-import Accommodation from "@/components/accommodation/Accommodation";
+
+import Hero from "@/components/accommodation/Hero";
+import Content from "@/components/accommodation/Content";
 
 export const metadata = {
   title: "Accommodation | Concetto 2026",
@@ -7,5 +9,10 @@ export const metadata = {
 };
 
 export default function AccommodationPage() {
-  return <Accommodation />;
+  return (
+    <main className="min-h-screen bg-black">
+      <Hero />
+      <Content />
+    </main>
+  );
 }

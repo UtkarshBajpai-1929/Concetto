@@ -23,8 +23,6 @@ export default function Header() {
   const [mounted, setMounted] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  const { theme, setTheme } = useTheme();
-
   const pathname = usePathname();
 
   useEffect(() => {
@@ -53,10 +51,6 @@ export default function Header() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
-  const toggleTheme = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-  };
 
   return (
     <header className="fixed inset-x-0 top-0 z-50">

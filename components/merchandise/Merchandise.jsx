@@ -13,38 +13,64 @@ export default function Merchandise() {
       : "/merch/shop_back.webp";
 
   return (
-    <main className="bg-[var(--background)] text-[var(--foreground)]">
-
+    <main className="bg-black text-white">
       {/* Hero */}
-      <section className="px-5 pb-12 pt-32 text-center md:pt-36">
-        <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[var(--primary)]">
-          Official Merchandise
-        </p>
+      <section className="relative flex min-h-[60vh] items-center justify-center overflow-hidden px-5 pb-16 pt-32 text-center md:px-10 md:pb-20 md:pt-40">
+        {/* Orange glow */}
+        <div className="pointer-events-none absolute left-1/2 top-1/2 h-[420px] w-[420px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[var(--primary)]/10 blur-[100px] md:h-[520px] md:w-[520px] md:bg-[var(--primary)]/[0.08] md:blur-[130px]" />
 
-        <h1 className="mt-3 text-4xl font-black uppercase tracking-tight text-(--heading-text) md:text-6xl">
-          Wear Concetto<span className="text-[var(--primary)]">.</span>
-        </h1>
+        {/* Left HUD circle */}
+        <div className="pointer-events-none absolute left-[7%] top-[18%] hidden h-48 w-48 rounded-full border border-[var(--primary)]/20 md:block">
+          <div className="absolute inset-7 rounded-full border border-[var(--primary)]/15" />
 
-        <p className="mx-auto mt-4 max-w-xl text-sm leading-6 text-[var(--text-muted)]">
-          The official Concetto T-shirt — made for the fest,
-          designed to live beyond it.
-        </p>
+          <div className="absolute left-1/2 top-0 h-1/2 w-px origin-bottom rotate-[32deg] bg-[var(--primary)]/30" />
+        </div>
 
-        <a
-          href="#product"
-          className="mt-6 inline-flex items-center gap-2 rounded-full border border-[var(--primary)] px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-[var(--primary)] transition hover:bg-[var(--primary)] hover:text-white"
-        >
-          Explore
-          <ArrowDown size={14} />
-        </a>
+        {/* Right HUD circle */}
+        <div className="pointer-events-none absolute right-[7%] top-[18%] hidden h-48 w-48 rounded-full border border-[var(--primary)]/20 md:block">
+          <div className="absolute inset-7 rounded-full border border-[var(--primary)]/15" />
+
+          <div className="absolute left-1/2 top-0 h-1/2 w-px origin-bottom -rotate-[32deg] bg-[var(--primary)]/30" />
+        </div>
+
+        {/* Horizontal lines */}
+        <div className="pointer-events-none absolute left-0 top-1/2 hidden h-px w-[28%] bg-[var(--primary)]/25 md:block" />
+
+        <div className="pointer-events-none absolute right-0 top-1/2 hidden h-px w-[28%] bg-[var(--primary)]/25 md:block" />
+
+        {/* Hero content */}
+        <div className="relative z-10 mx-auto max-w-4xl">
+          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[var(--primary)]">
+            Official Merchandise
+          </p>
+
+          <h1 className="mt-3 text-4xl font-black uppercase tracking-tight text-[#c0c0c0] md:text-6xl">
+            Wear Concetto
+            <span className="text-[var(--primary)]">.</span>
+          </h1>
+
+          <div className="mx-auto mt-6 h-px w-24 bg-[var(--primary)]" />
+
+          <p className="mx-auto mt-5 max-w-xl text-sm leading-6 text-[#a7a7a7] md:text-base">
+            The official Concetto T-shirt — made for the fest,
+            designed to live beyond it.
+          </p>
+
+          <a
+            href="#product"
+            className="mt-6 inline-flex items-center gap-2 rounded-full border border-[var(--primary)] px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-[var(--primary)] transition hover:bg-[var(--primary)] hover:text-white"
+          >
+            Explore
+            <ArrowDown size={14} />
+          </a>
+        </div>
       </section>
 
       {/* Product */}
       <section id="product" className="px-5 pb-20 md:px-10">
         <div className="mx-auto grid max-w-[1200px] overflow-hidden rounded-3xl border border-[var(--border)] bg-[var(--surface)]/30 shadow-2xl lg:grid-cols-2">
-
           {/* Image */}
-          <div className="flex min-h-[450px] items-center justify-center border-b border-[var(--border)] p-6 lg:border-b-0 lg:border-r md:p-10">
+          <div className="flex min-h-[450px] items-center justify-center border-b border-[var(--border)] p-6 md:p-10 lg:border-b-0 lg:border-r">
             <Image
               src={image}
               alt="Concetto official T-shirt"
@@ -57,7 +83,6 @@ export default function Merchandise() {
 
           {/* Details */}
           <div className="flex flex-col justify-center p-7 md:p-12">
-
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[var(--primary)]">
               Concetto 2026
             </p>
@@ -68,7 +93,7 @@ export default function Merchandise() {
               Concetto T-Shirt
             </h2>
 
-            <p className="mt-5 text-sm leading-6 text-[var(--text-muted)]">
+            <p className="mt-5 text-sm leading-6 text-[#a7a7a7]">
               Premium cotton T-shirt featuring the official Concetto
               design. Comfortable, minimal and made for the community.
             </p>
@@ -78,7 +103,7 @@ export default function Merchandise() {
                 ₹349
               </span>
 
-              <span className="text-sm text-[var(--text-muted)] line-through">
+              <span className="text-sm text-[#a7a7a7] line-through">
                 ₹699
               </span>
 
@@ -96,7 +121,7 @@ export default function Merchandise() {
                   className={`rounded-lg border px-4 py-3 text-xs font-semibold uppercase tracking-wider transition ${
                     view === item
                       ? "border-[var(--primary)] bg-[var(--primary)] text-white"
-                      : "border-[var(--border)] text-[var(--text-muted)] hover:border-[var(--primary)]"
+                      : "border-[var(--border)] text-[#a7a7a7] hover:border-[var(--primary)]"
                   }`}
                 >
                   {item} Side
@@ -115,7 +140,6 @@ export default function Merchandise() {
               Buy Now — ₹349
               <ArrowUpRight size={16} />
             </a>
-
           </div>
         </div>
       </section>
