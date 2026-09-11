@@ -2,7 +2,7 @@ import { Home } from "lucide-react";
 
 export default function Hero() {
   return (
-  <section className="relative flex min-h-[75vh] items-center justify-center overflow-hidden bg-black px-6 pt-24">
+  <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-black px-6 pt-24">
 
   {/* Orange glow behind heading */}
   <div className="pointer-events-none absolute left-1/2 top-1/2 h-[420px] w-[420px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[var(--primary)]/10 blur-[100px] md:h-[520px] md:w-[520px] md:bg-[var(--primary)]/[0.08] md:blur-[130px]" />
