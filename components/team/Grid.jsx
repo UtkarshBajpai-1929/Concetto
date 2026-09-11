@@ -11,28 +11,29 @@ export default function Grid({ members, teams }) {
         if (teamMembers.length === 0) return null;
 
         return (
-          <section key={team} className="mx-auto w-full max-w-7xl">
-            {/* Team Heading */}
+          <section key={team} className="mx-auto w-full max-w-6xl">
             <div className="mb-7 text-center">
               <h2 className="text-2xl font-bold uppercase tracking-tight text-white md:text-3xl">
                 {team} Team
               </h2>
 
-              {/* Heading Line */}
               <div className="mx-auto mt-3 h-px w-24 bg-[var(--primary)]" />
             </div>
 
-            {/* Team Cards */}
-            <div className="flex flex-wrap justify-center gap-6 xl:gap-7">
-              {teamMembers.map((member) => (
-                <div
-                  key={member.name}
-                  className="w-full sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1.25rem)]"
-                >
-                  <Card member={member} />
-                </div>
-              ))}
-            </div>
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8 xl:gap-10">
+  {teamMembers.map((member, index) => (
+    <div
+      key={member.name}
+      className={`w-full max-w-[520px] ${
+        teamMembers.length % 2 !== 0 && index === teamMembers.length - 1
+          ? "md:col-span-2 md:justify-self-center"
+          : ""
+      }`}
+    >
+      <Card member={member} />
+    </div>
+  ))}
+</div>
           </section>
         );
       })}
