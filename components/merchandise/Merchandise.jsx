@@ -165,7 +165,7 @@ export default function Merchandise() {
   ];
 
   const [currentImage, setCurrentImage] = useState(0);
-
+  const [touchStart, setTouchStart] = useState(null);
   const previousImage = () => {
     setCurrentImage((prev) =>
       prev === 0 ? images.length - 1 : prev - 1
@@ -176,6 +176,34 @@ export default function Merchandise() {
     setCurrentImage((prev) =>
       prev === images.length - 1 ? 0 : prev + 1
     );
+  };
+
+  // Touch start 
+  const handleTouchStart = (e) => { 
+    setTouchStart(e.touches[0].clientX); 
+  }; 
+  // Touch end 
+  const handleTouchEnd = (e) => {
+     if (touchStart === null) 
+      return; 
+    const touchEnd = e.changedTouches[0].clientX; 
+    const distance = touchStart - touchEnd; 
+    // Minimum swipe distance 
+    const minSwipeDistance = 50; 
+    if (Math.abs(distance) < minSwipeDistance) 
+    { 
+      setTouchStart(null);
+      return; 
+    } 
+    if (distance > 0) { 
+      // Swipe left → next image 
+      nextImage(); 
+    } 
+    else { 
+      // Swipe right → previous image 
+      previousImage(); 
+    } 
+    setTouchStart(null); 
   };
 
   return (
@@ -239,7 +267,11 @@ export default function Merchandise() {
           <div className="flex min-h-[450px] flex-col items-center justify-center border-b border-[var(--border)] p-6 md:p-10 lg:border-b-0 lg:border-r">
 
             {/* Image */}
-            <div className="relative flex w-full items-center justify-center">
+            <div 
+            className="relative flex w-full items-center justify-center touch-pan-y" 
+            onTouchStart={handleTouchStart} 
+            onTouchEnd={handleTouchEnd} 
+            >
               <Image
                 key={images[currentImage]}
                 src={images[currentImage]}
@@ -283,6 +315,7 @@ export default function Merchandise() {
                   }`}
                 />
               ))}
+
             </div>
           </div>
 
