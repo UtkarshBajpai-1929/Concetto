@@ -15,7 +15,7 @@ export default function Merchandise() {
   return (
     <main className="bg-black text-white">
       {/* Hero */}
-      <section className="relative flex min-h-[60vh] items-center justify-center overflow-hidden px-5 pb-16 pt-32 text-center md:px-10 md:pb-20 md:pt-40">
+      <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-5 pb-16 pt-32 text-center md:px-10 md:pb-20 md:pt-40">
         {/* Orange glow */}
         <div className="pointer-events-none absolute left-1/2 top-1/2 h-[420px] w-[420px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[var(--primary)]/10 blur-[100px] md:h-[520px] md:w-[520px] md:bg-[var(--primary)]/[0.08] md:blur-[130px]" />
 
