@@ -131,7 +131,7 @@ export default function Merchandise() {
 
             {/* Buy */}
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfpnKXmFJCNMBioSIQ3lcxWpqXILSBiXlYHupIY5gDsUHlRDA/viewform?usp=publish-editor"
+              href="https://docs.google.com/forms/d/1YH3YaouuGGCdojzgFMKLKArhAHH8GGsszZ7CQg2HzN0/edit"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-5 flex items-center justify-center gap-3 rounded-xl bg-[var(--primary)] px-6 py-4 text-sm font-semibold transition hover:-translate-y-0.5 hover:shadow-lg"

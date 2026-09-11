@@ -27,7 +27,8 @@ export const team = [
     team: 'secretariat',
     email: 'Preident_sg@iitism.ac.in',
     phone: '+91-8159907830',
-    image: '/team/sjs.jpg'
+    image: '/team/sjs.jpg',
+    linkedin: 'https://www.linkedin.com/in/jyotiraditya-singh-57ab01283'
     //data not available
   },
   {

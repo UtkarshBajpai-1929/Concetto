@@ -50,7 +50,9 @@ export default function EventCard({
         </div>
 
         {/* Apply Button */}
-        <a
+        if ({category} !== "fun") 
+        {
+          <a
           href={href}
           target="_blank"
           rel="noopener noreferrer"
@@ -59,6 +61,8 @@ export default function EventCard({
           <ExternalLink size={21} />
           <span>Apply Now</span>
         </a>
+        }
+        
 
       </div>
     </article>
