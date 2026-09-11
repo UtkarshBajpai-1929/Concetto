@@ -13,12 +13,12 @@ const notes = [
 ];
 
 const FORM_URL =
-  "https://docs.google.com/forms/d/e/1FAIpQLSdjceqjXB7BJhZT4LKZMeFvKzsv91WwTQjLmy7MgoNEkerS2g/viewform?usp=publish-editor";
+  "https://docs.google.com/forms/d/e/1FAIpQLSeCjdcCQyPqFwwD9D_7Mg_nYfUm-U7tLY2RbjJOP33V6a42kg/viewform";
 
 export default function Content() {
   return (
     <div className="bg-black">
-      {/* ================= APPLICATION ================= */}
+      {/* ================= APPLICATION =================
 
       <section className="px-5 pb-20 md:px-10 md:pb-24">
         <div className="mx-auto max-w-[850px] text-center">
@@ -37,6 +37,41 @@ export default function Content() {
             <Home size={17} />
 
             Apply for Accommodation
+
+            <ArrowUpRight
+              size={16}
+              className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+            />
+          </a>
+        </div>
+      </section> */}
+      {/* ================= FINAL CTA ================= */}
+
+      <section className="px-5 py-20 md:px-10 md:py-28">
+        <div className="mx-auto max-w-[900px] rounded-3xl border border-[var(--primary)]/20 bg-[#0e0e0e] px-6 py-12 text-center md:px-12 md:py-16">
+          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[var(--primary)]">
+            Join Us
+          </p>
+
+          <h2 className="mt-3 text-2xl font-black uppercase tracking-tight text-white md:text-4xl">
+            Ready to Join Concetto 2026?
+          </h2>
+
+          <p className="mx-auto mt-4 max-w-xl text-sm leading-6 text-[#a7a7a7]">
+            We look forward to welcoming you to IIT (ISM) Dhanbad
+            and making your Concetto experience comfortable and
+            memorable.
+          </p>
+
+          <a
+            href={FORM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group mt-8 inline-flex items-center gap-3 rounded-lg bg-[var(--primary)] px-7 py-4 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_10px_35px_rgba(232,80,2,0.25)]"
+          >
+            <Home size={17} />
+
+            Apply Now for Accommodation
 
             <ArrowUpRight
               size={16}
@@ -89,7 +124,7 @@ export default function Content() {
         </div>
       </section>
 
-      {/* ================= FINAL CTA ================= */}
+      {/* ================= FINAL CTA =================
 
       <section className="px-5 py-20 md:px-10 md:py-28">
         <div className="mx-auto max-w-[900px] rounded-3xl border border-[var(--primary)]/20 bg-[#0e0e0e] px-6 py-12 text-center md:px-12 md:py-16">
@@ -123,7 +158,7 @@ export default function Content() {
             />
           </a>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

@@ -16,16 +16,18 @@ export const team = [
     department: 'Secretariat Team',
     team: 'secretariat',
     email: 'gsec_snt@iitism.ac.in',
-    phone: '+91-9967099607'
+    phone: '+91-9967099607',
+    image: '/team/sab.jpg'
     // data not available
   },
   {
     name: 'Jyotiraditya Singh',
-    role: 'President',
+    role: 'President, Student\'s Gymkhana',
     department: 'Secretariat Team',
     team: 'secretariat',
-    email: 'abc@iitism.ac.in',
-    phone: '+91-8159907830'
+    email: 'Preident_sg@iitism.ac.in',
+    phone: '+91-8159907830',
+    image: '/team/sjs.jpg'
     //data not available
   },
   {
@@ -429,6 +431,7 @@ export const team = [
     team: 'hospitality',
     email: '23je0578@iitism.ac.in',
     phone: '+91-9396969697',
+    image: '/team/hosp-hs.jpg',
     instagram: 'https://www.instagram.com/_.suharshini._?stkn=ZWF3bWkwYXd3YnZz',
     linkedin: 'https://www.linkedin.com/in/hemaa-suharshini-098142288?utm_source=share_via&utm_content=profile&utm_medium=member_android'
   },
