@@ -1,5 +1,5 @@
 export const team = [
-    {
+  {
     name: 'Seemala Devi Sri Pranay',
     role: 'Coordinator',
     department: 'Secretariat Team',
@@ -9,17 +9,6 @@ export const team = [
     image: '/team/sdsp.jpg',
     instagram: 'https://www.instagram.com/pranayseemalaa?stkn=emtvMXUyNjlpenN2',
     linkedin: 'https://www.linkedin.com/in/seemala-devi-sri-pranay-96b370289?utm_source=share_via&utm_content=profile&utm_medium=member_android'
-  },
-   {
-    name: 'Mutyala Vinay',
-    role: 'Chairperson',
-    department: 'Secretariat Team',
-    team: 'secretariat',
-    email: 'Chair_ss@iitism.ac.in',
-    phone: '+91-8790269932',
-    image: '/team/mutyala_vinay.jpeg',
-    instagram: 'https://www.instagram.com/vinay__125_?stkn=YWhhZDhnZGNjbWQy',
-    linkedin: 'https://www.linkedin.com/in/mutyala-vinay-740000293'
   },
   {
     name: 'Adwait Bhor',
@@ -38,6 +27,17 @@ export const team = [
     email: 'abc@iitism.ac.in',
     phone: '+91-8159907830'
     //data not available
+  },
+  {
+    name: 'Mutyala Vinay',
+    role: 'Chairperson',
+    department: 'Secretariat Team',
+    team: 'secretariat',
+    email: 'Chair_ss@iitism.ac.in',
+    phone: '+91-8790269932',
+    image: '/team/mutyala_vinay.jpeg',
+    instagram: 'https://www.instagram.com/vinay__125_?stkn=YWhhZDhnZGNjbWQy',
+    linkedin: 'https://www.linkedin.com/in/mutyala-vinay-740000293'
   },
   {
     name: 'Parsh J. Chandra',
