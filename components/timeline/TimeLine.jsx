@@ -58,7 +58,7 @@ export default function Timeline() {
 
         <div className="mb-7 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
-            {currentDay.date}
+            {currentDay.date} - {currentDay.day}
           </p>
         </div>
 
