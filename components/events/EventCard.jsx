@@ -50,7 +50,7 @@ export default function EventCard({
         </div>
 
         {/* Apply Button */}
-        {category !== "fun" && (
+        {category != "fun" && (
           <a
           href={href}
           target="_blank"
