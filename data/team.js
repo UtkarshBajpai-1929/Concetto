@@ -270,15 +270,15 @@ export const team = [
     instagram: 'https://www.instagram.com/siddhant_verma___?stkn=MXU0ZWwxZmVuMzA2bw==',
     linkedin: 'www.linkedin.com/in/siddhant-verma23'
   },
-  {
-    name: 'Aman',
-    role: 'Operation And Logistics Co-Head',
-    department: 'Operation And Logistics',
-    team: 'operation and logistics',
-    email: '23je0083@iitism.ac.in',
-    phone: ''
-    // data not available
-  },
+  // {
+  //   name: 'Aman',
+  //   role: 'Operation And Logistics Co-Head',
+  //   department: 'Operation And Logistics',
+  //   team: 'operation and logistics',
+  //   email: '23je0083@iitism.ac.in',
+  //   phone: ''
+  //   // data not available
+  // },
   {
     name: 'Sucheta Ghosal',
     role: 'Web Development Head',

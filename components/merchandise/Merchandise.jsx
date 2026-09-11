@@ -100,16 +100,16 @@ export default function Merchandise() {
 
             <div className="mt-7 flex items-center gap-4">
               <span className="text-3xl font-black text-[var(--primary)]">
-                ₹349
+                ₹379
               </span>
 
-              <span className="text-sm text-[#a7a7a7] line-through">
+              {/* <span className="text-sm text-[#a7a7a7] line-through">
                 ₹699
               </span>
 
               <span className="rounded-md bg-[var(--primary)]/10 px-2 py-1 text-[10px] font-bold uppercase text-[var(--primary)]">
                 50% Off
-              </span>
+              </span> */}
             </div>
 
             {/* View */}
@@ -137,7 +137,7 @@ export default function Merchandise() {
               className="mt-5 flex items-center justify-center gap-3 rounded-xl bg-[var(--primary)] px-6 py-4 text-sm font-semibold transition hover:-translate-y-0.5 hover:shadow-lg"
             >
               <ShoppingBag size={18} />
-              Buy Now — ₹349
+              Buy Now
               <ArrowUpRight size={16} />
             </a>
           </div>
