@@ -10,7 +10,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative flex min-h-[75vh] items-center justify-center overflow-hidden bg-(--background) px-6 pt-24">
+    <section className="relative flex min-h-[60vh] items-center justify-center overflow-hidden bg-(--background) px-6 pt-24">
       <div className="pointer-events-none absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-(--primary)/10 blur-[140px]" />
 
       <div className="pointer-events-none absolute left-0 top-1/2 hidden h-px w-[30%] bg-linear-to-r from-transparent via-(--primary)/20 to-(--primary)/60 md:block" />
