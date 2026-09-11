@@ -33,7 +33,7 @@ export const team = [
   },
   {
     name: 'Mutyala Vinay',
-    role: 'Chairperson',
+    role: 'Chairperson, Student\'s Gymkhana',
     department: 'Secretariat Team',
     team: 'secretariat',
     email: 'Chair_ss@iitism.ac.in',
@@ -322,7 +322,7 @@ export const team = [
     team: 'security',
     email: '23je0469@iitism.ac.in',
     phone: '+91-8317525463',
-    image: '/team/sec-kc.JPG',
+    image: '/team/sec-kc1.JPG',
     instagram: 'https://www.instagram.com/_.bobby_23._?stkn=bXNqZWRhYnAwaTQz&utm_source=qr',
     linkedin: 'https://www.linkedin.com/in/chaitanya-bobby-aa27b5313?utm_source=share_via&utm_content=profile&utm_medium=member_ios'
   },
