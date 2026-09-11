@@ -103,13 +103,13 @@ export default function Merchandise() {
                 ₹379
               </span>
 
-              <span className="text-sm text-[#a7a7a7] line-through">
+              {/* <span className="text-sm text-[#a7a7a7] line-through">
                 ₹699
               </span>
 
               <span className="rounded-md bg-[var(--primary)]/10 px-2 py-1 text-[10px] font-bold uppercase text-[var(--primary)]">
                 50% Off
-              </span>
+              </span> */}
             </div>
 
             {/* View */}
