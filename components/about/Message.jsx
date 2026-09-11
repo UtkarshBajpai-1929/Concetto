@@ -76,7 +76,7 @@ export default function Message({
 
             {/* Name & Designation */}
             <div className="absolute bottom-0 left-0 right-0 px-5 pb-6 text-center text-white">
-              <h2 className="text-lg font-bold md:text-xl">
+              <h2 className="text-xl font-bold md:text-2xl">
                 {name}
               </h2>
 
