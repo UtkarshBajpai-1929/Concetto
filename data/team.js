@@ -1,4 +1,15 @@
 export const team = [
+   {
+    name: 'Mutyala Vinay',
+    role: 'Chairperson',
+    department: 'Secretariat Team',
+    team: 'secretariat',
+    email: 'Chair_ss@iitism.ac.in',
+    phone: '+91-8790269932',
+    image: '/team/mutyala_vinay.jpeg',
+    instagram: 'https://www.instagram.com/vinay__125_?stkn=YWhhZDhnZGNjbWQy',
+    linkedin: 'https://www.linkedin.com/in/mutyala-vinay-740000293'
+  },
   {
     name: 'Seemala Devi Sri Pranay',
     role: 'Coordinator',
