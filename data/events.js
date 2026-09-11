@@ -441,15 +441,15 @@ export const events = [
 
   // Fun / Other Events
 
-  {
-    id: 44,
-    title: "Prom Night",
-    category: "fun",
-    description:
-      "A pre-fest social event designed to bring participants together for an evening of celebration and entertainment.",
-    mode: "Offline",
-    href: "#",
-  },
+  // {
+  //   id: 44,
+  //   title: "Prom Night",
+  //   category: "fun",
+  //   description:
+  //     "A pre-fest social event designed to bring participants together for an evening of celebration and entertainment.",
+  //   mode: "Offline",
+  //   href: "#",
+  // },
 
   {
     id: 45,
@@ -511,5 +511,35 @@ export const events = [
     "",
   mode: "Offline",
   href: "https://docs.google.com/forms/d/e/1FAIpQLSfzNuxuCfZGHJPfAnYMjZlNDrrcvgWoYrxn1tslZjdhB7s2TA/viewform",
+  },
+
+  {
+    id: 51,
+    title: "Comedy Night",
+    category: "fun",
+    description:
+      "",
+    mode: "Offline",
+    href: "#",
+  },
+
+  {
+    id: 52,
+    title: "DJ Night",
+    category: "fun",
+    description:
+      "",
+    mode: "Offline",
+    href: "#",
+  },
+
+  {
+    id: 53,
+    title: "Star Night",
+    category: "fun",
+    description:
+      "",
+    mode: "Offline",
+    href: "#",
   },
 ];

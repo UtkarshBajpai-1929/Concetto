@@ -300,7 +300,7 @@ export const team = [
     team: 'development',
     email: '23je0191@iitism.ac.in',
     phone: '+91-8341260805',
-    // image not access
+    image: '/team/app-as.jpg',
     instagram: 'https://www.instagram.com/shivaniayilamoni_37?stkn=MWt3cWtyemIwMW5lNA==',
     linkedin: 'https://www.linkedin.com/in/shivani-ayilamoni-620478288/'
   },
