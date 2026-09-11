@@ -282,8 +282,8 @@ export const team = [
   {
     name: 'Sucheta Ghosal',
     role: 'Web Development Head',
-    department: 'Web Development',
-    team: 'web development',
+    department: 'Development',
+    team: 'development',
     email: '23je0971@iitism.ac.in',
     phone: '+91-8918815184',
     image: '/team/web-sg.jpg',
@@ -293,8 +293,8 @@ export const team = [
   {
     name: 'Ayilamoni Shivani',
     role: 'App Development Head',
-    department: 'App Development',
-    team: 'app development',
+    department: 'Development',
+    team: 'development',
     email: '23je0191@iitism.ac.in',
     phone: '+91-8341260805',
     // image not access

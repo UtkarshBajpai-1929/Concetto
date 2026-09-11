@@ -36,6 +36,9 @@ export default function Card({ member }) {
           <h3 className="text-base font-bold text-[var(--foreground)]">
             {member.name || "—"}
           </h3>
+          <h4 className="text-base font-semibold text-[var(--primary)]">
+            {member.role || "—"}
+          </h4>
         </div>
       </article>
 
