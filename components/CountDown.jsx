@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const targetDate = new Date("2026-10-08T00:00:00+05:30").getTime();
+const targetDate = new Date("2026-10-09T00:00:00+05:30").getTime();
 
 export default function Countdown() {
   const [time, setTime] = useState({
@@ -60,7 +60,7 @@ export default function Countdown() {
           </p>
 
           <p className="mt-1 text-xs tracking-wide text-[var(--text-muted)]">
-            12 October 2026
+            09 October 2026
           </p>
         </div>
 
