@@ -257,15 +257,15 @@ export const events = [
     href: "https://docs.google.com/forms/d/e/1FAIpQLSeqHA0yttderk7EIO-NjMEsXkRhrIkzIsTGVxtSw3-v_e0llQ/viewform",
   },
 
-  // {
-  //   id: 26,
-  //   title: "Stunt Show",
-  //   category: "club",
-  //   description:
-  //     "A mechanical and automotive themed event featuring exciting stunt-oriented challenges.",
-  //   mode: "Offline",
-  //   href: "#",
-  // },
+  {
+    id: 26,
+    title: "Stunt Show",
+    category: "fun",
+    description:
+      "",
+    mode: "Offline",
+    href: "#",
+  },
 
   {
     id: 27,
@@ -290,7 +290,7 @@ export const events = [
   {
     id: 29,
     title: "AutoExpo",
-    category: "club",
+    category: "fun",
     description:
       "An automotive showcase highlighting vehicles, engineering, and automotive innovation.",
     mode: "Offline",
