@@ -423,6 +423,16 @@ export const team = [
     linkedin: 'https://www.linkedin.com/in/mitta-sai-ramana-siddartha-919b43289?utm_source=share_via&utm_content=profile&utm_medium=member_ios'
   },
   {
+    name: 'M Hema Suharshinii',
+    role: 'Hospitality Co-Head',
+    department: 'Hospitality',
+    team: 'hospitality',
+    email: '23je0578@iitism.ac.in',
+    phone: '+91-9396969697',
+    instagram: 'https://www.instagram.com/_.suharshini._?stkn=ZWF3bWkwYXd3YnZz',
+    linkedin: 'https://www.linkedin.com/in/hemaa-suharshini-098142288?utm_source=share_via&utm_content=profile&utm_medium=member_android'
+  },
+  {
     name: 'Keshav Jha',
     role: 'Hospitality Co-Head',
     department: 'Hospitality',
@@ -443,16 +453,6 @@ export const team = [
     image: '/team/hosp-nidhi.jpg',
     instagram: 'https://www.instagram.com/_nidhihii',
     linkedin: 'https://www.linkedin.com/in/nidhi-a79730285'
-  },
-  {
-    name: 'M Hema Suharshinii',
-    role: 'Hospitality Co-Head',
-    department: 'Hospitality',
-    team: 'hospitality',
-    email: '23je0578@iitism.ac.in',
-    phone: '+91-9396969697',
-    instagram: 'https://www.instagram.com/_.suharshini._?stkn=ZWF3bWkwYXd3YnZz',
-    linkedin: 'https://www.linkedin.com/in/hemaa-suharshini-098142288?utm_source=share_via&utm_content=profile&utm_medium=member_android'
   },
   {
     name: 'Sreeja Peesa',
