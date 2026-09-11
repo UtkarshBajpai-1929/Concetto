@@ -1,6 +1,6 @@
 export const timelineData = [
   {
-    date: "12 October 2026",
+    date: "08 October 2026",
     events: [
       {
         title: "Inauguration",
@@ -25,7 +25,7 @@ export const timelineData = [
     ],
   },
   {
-    date: "13 October 2026",
+    date: "09 October 2026",
     events: [
       {
         title: "Event Name",
@@ -35,7 +35,7 @@ export const timelineData = [
     ],
   },
   {
-    date: "14 October 2026",
+    date: "10 October 2026",
     events: [
       {
         title: "Event Name",
@@ -45,7 +45,7 @@ export const timelineData = [
     ],
   },
   {
-    date: "15 October 2026",
+    date: "11 October 2026",
     events: [
       {
         title: "Event Name",
