@@ -1,7 +1,7 @@
 import Levels from "./Levels";
 import PastSponsors from "./PastSponsors";
 import SponsorCTA from "./SponsorCTA";
-import PartnerTypes from "./PartnerTypes";
+import PartnerTypes from "./Partners";
 
 export default function Sponsors() {
   return (
