@@ -1,6 +1,7 @@
 import Levels from "./Levels";
 import PastSponsors from "./PastSponsors";
 import SponsorCTA from "./SponsorCTA";
+import PartnerTypes from "./PartnerTypes";
 
 export default function Sponsors() {
   return (
@@ -54,6 +55,7 @@ export default function Sponsors() {
       {/* ================= SPONSORSHIP LEVELS ================= */}
       <Levels />
 
+      <PartnerTypes />
       {/* ================= PAST SPONSORS ================= */}
       <PastSponsors />
     </main>
