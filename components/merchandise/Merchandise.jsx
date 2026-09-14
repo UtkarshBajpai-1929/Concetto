@@ -160,8 +160,8 @@ import {
 
 export default function Merchandise() {
   const images = [
-    "/merch/shop_front.webp",
-    "/merch/shop_back.webp",
+    "/merch/merch.png",
+    "/merch/merch_sizes.png",
   ];
 
   const [currentImage, setCurrentImage] = useState(0);
