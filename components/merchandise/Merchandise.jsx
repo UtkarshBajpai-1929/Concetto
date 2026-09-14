@@ -161,7 +161,7 @@ import {
 export default function Merchandise() {
   const images = [
     "/merch/merch.png",
-    "/merch/merch_sizes.png",
+    "/merch/merch_sizes.jpg",
   ];
 
   const [currentImage, setCurrentImage] = useState(0);
