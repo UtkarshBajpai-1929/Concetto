@@ -74,6 +74,7 @@ export const events = [
     description:
       "A UI/UX design challenge focused on creativity, visual design, and user experience.",
     mode: "Offline",
+    image: "/events/design-decode.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSf0r-Of_qJipnNzxYWq50Qu_fSUM4Q918Sxt4m3QBlSZlKVSQ/viewform",
   },
 
@@ -94,6 +95,7 @@ export const events = [
     description:
       "A blockchain-focused technical challenge exploring decentralized technologies and innovative solutions.",
     mode: "Offline",
+    image: "/events/BlockHunt.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdKkighjJcLM9bNtiTcFv9Iee8Pz9t-j8lM9d9wXV58afTSpw/viewform",
   },
 
@@ -104,6 +106,7 @@ export const events = [
     description:
       "A web development hackathon where participants create innovative and engaging digital experiences.",
     mode: "Offline",
+    image: "/events/devdash.jpg",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdP94ZSBPRwn5-yYekEj_SXIjY4AzN7PjC2Pbh9FHyaMbTEMg/viewform",
   },
 
@@ -134,6 +137,7 @@ export const events = [
     description:
       "A product management and consulting case challenge focused on solving real-world business problems.",
     mode: "Offline",
+    image: "/events/Caseblitz.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdSvIrxl8SFP16c3nVU4ZvfCux_QbSUCxSosBAMZMCsHnG_jQ/viewform",
   },
 
@@ -144,6 +148,7 @@ export const events = [
     description:
       "A logical problem-solving challenge designed to test analytical thinking and reasoning.",
     mode: "Offline",
+    image: "/events/logicOdyssey.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSckWsaTB5QKfhzriT0sWN6a5INiZnVTPsU0bNupnC5upwNP6g/viewform",
   },
 
@@ -154,6 +159,7 @@ export const events = [
     description:
       "A competitive coding challenge where participants test their programming and problem-solving abilities.",
     mode: "Offline",
+    image: "/events/codewars.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLScyVg0RlpWugmEcvoXBjv_IioXpNF52GHYktbs1_uzpGFKDOA/viewform",
   },
 
@@ -164,6 +170,7 @@ export const events = [
     description:
       "A robotic challenge featuring technical competition, strategy, and engineering skills.",
     mode: "Offline",
+    image: "/events/roboWars.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSfTL9X7sPZNZAnW1BcERs9v72jQXvlr99s4l89U4I8PGdyn0g/viewform",
   },
 
@@ -174,6 +181,7 @@ export const events = [
     description:
       "A technical challenge designed around engineering concepts and problem solving.",
     mode: "Offline",
+    image: "/events/GateCraft.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdF5yaVfEX9T-uyzHbxwZYTy5E67mTaWZsqH3ZoXlbPc6cUwA/viewform",
   },
 
@@ -184,6 +192,7 @@ export const events = [
     description:
       "A technical challenge exploring artificial intelligence and intelligent systems at the edge.",
     mode: "Offline",
+    image: "/events/EdgeAi.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdgmnRAb94DDD-h7D3V6ijVmyUYyd6LeVDdIxv2dsH3p97YNQ/viewform",
   },
 
@@ -284,6 +293,7 @@ export const events = [
     description:
       "An aerospace-themed technical challenge exploring flight, design, and engineering.",
     mode: "Offline",
+    image: "/events/AeroGlide.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLScsUCGj9GfukLoVypdvMPrvMdRtXaV1EW6sN6KxZXR_1zpqaQ/viewform",
   },
 
@@ -356,6 +366,7 @@ export const events = [
     description:
       "An electronics-focused challenge centred around identifying and solving technical faults.",
     mode: "Offline",
+    image: "/events/Fault Hunt.jpeg",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSeiwkbItv5Nq71q8_zA8TBgJXyhlAip2wzGLRr8OTEnxPQKlQ/viewform",
   },
 
@@ -366,6 +377,7 @@ export const events = [
     description:
       "A technical innovation challenge encouraging participants to develop creative engineering solutions.",
     mode: "Offline",
+    image: "/events/Saparkthon.jpeg",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSeBwamRY0l9qYbZauwxnG6Ir0L8JIesSPLYwnhkuhom5zpUEA/viewform",
   },
 
@@ -426,6 +438,7 @@ export const events = [
     description:
       "An environmental-themed event exploring ideas and challenges related to the environment.",
     mode: "Offline",
+    image: "/events/AETHERA.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSf-5tEtvXaG-3uYM7wlIVuzSVSblic6kzvVEYEgskXgy2i2Dg/viewform",
   },
 
