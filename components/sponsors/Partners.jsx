@@ -72,11 +72,6 @@ const partnerTypes = [
       "Provide telecom connectivity, SIM services, data services or communication support.",
   },
   {
-    title: "Food / Beverage Partner",
-    description:
-      "Provide food and beverage support while gaining prominent brand visibility.",
-  },
-  {
     title: "Electronics Partner",
     description:
       "Support the event with electronic devices, equipment and technology products.",
@@ -111,12 +106,18 @@ const partnerTypes = [
     description:
       "Provide gifts and giveaways for guests, participants, speakers and special occasions.",
   },
+  {
+    title: "Food / Beverage Partner",
+    description:
+      "Provide food and beverage support while gaining prominent brand visibility.",
+  },
 ];
 
 export default function PartnerTypes() {
-  const midIndex = Math.ceil(partnerTypes.length / 2);
+  const midIndex = Math.ceil(partnerTypes.length / 3);
   const leftColumn = partnerTypes.slice(0, midIndex);
-  const rightColumn = partnerTypes.slice(midIndex);
+  const centerColumn = partnerTypes.slice(midIndex, midIndex * 2);
+  const rightColumn = partnerTypes.slice(midIndex * 2);
 
   const PartnerCard = ({ partner }) => (
     <div className="group flex flex-col cursor-pointer rounded-t-lg border-b border-white/10 px-4 py-5 transition-all duration-500 hover:border-[var(--primary)] hover:bg-white/[0.02] hover:backdrop-blur-sm">
@@ -194,18 +195,13 @@ export default function PartnerTypes() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-x-16 gap-y-2 lg:grid-cols-2">
-          <div className="flex flex-col">
-            {leftColumn.map((partner) => (
+        <div className="grid grid-cols-1 gap-x-16 gap-y-2 lg:grid-cols-3 font-stretch-87%">
+          
+          {partnerTypes.map((partner) => (
+            <div key={partner.title} className="last:lg:col-start-2">
               <PartnerCard key={partner.title} partner={partner} />
+              </div>
             ))}
-          </div>
-
-          <div className="flex flex-col">
-            {rightColumn.map((partner) => (
-              <PartnerCard key={partner.title} partner={partner} />
-            ))}
-          </div>
         </div>
       </div>
     </section>
