@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
+        <meta name="google-site-verification" content="wD1ikE_mI6UlmS-GzA1WoykOQ-MhqRqlcZQ0rCJWLKg" />
       </head>
       <body>
     
