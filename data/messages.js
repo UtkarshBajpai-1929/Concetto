@@ -36,7 +36,7 @@ export const messages = [
     name: "Prof. Gopi Krishna Dondapatti",
     designation: "Treasurer, Concetto 2026",
     message: [
-      '“The future belongs to those who believe in the beauty of their dreams.” — — Eleanor Roosevelt',
+      '“It gives me immense pleasure to be a part of Concetto’26 and to contribute towards the successful organization of this celebration of technology, innovation, and creativity. As we commemorate the Centenary Year of IIT (ISM) Dhanbad, this edition holds a special significance as we celebrate a century of excellence, legacy, and learning. As the Treasurer, I believe that responsible financial management, transparency, and accountability are essential for transforming ideas into meaningful experiences. This fest is the result of collective effort, dedication, and teamwork from every individual involved. I sincerely appreciate the commitment of the whole team and look forward to witnessing Concetto’26 become a memorable platform where ideas are shared, talents are showcased, and innovation inspires us all.”',
 
     ],
     image: "/about/prof-gopi-krishna.png"
@@ -46,7 +46,7 @@ export const messages = [
     name: "Sourav Dutta",
     designation: "Student Advisor, Concetto 2026",
     message: [
-      '“The future belongs to those who believe in the beauty of their dreams.” — — Eleanor Roosevelt',
+      '“It is my immense pleasure to welcome you to Concetto 2026, the annual techno-management fest of IIT (ISM), Dhanbad—where ideas take shape, innovation takes flight, and technology meets purpose.I encourage every participant to explore, experiment, compete, and learn beyond the boundaries of the classroom. May this vibrant convergence inspire curiosity, nurture innovation, and empower young minds to address real-world challenges.Let us celebrate the spirit of discovery and the limitless potential of young minds.Best wishes to all participants and organizers for a remarkable and inspiring Concetto 2026.”'
 
     ],
     image: "/about/sourav-dutta.png"
@@ -55,7 +55,7 @@ export const messages = [
     name: "Badal Singh Naik",
     designation: "Student Advisor, Concetto 2026",
     message: [
-      '“The future belongs to those who believe in the beauty of their dreams.” — — Eleanor Roosevelt',
+      '“Concetto stands as a vibrant platform where innovation meets imagination and ideas transform into possibilities. My vision has always been to work with dedication, embrace challenges, and strive to deliver the very best. I believe that excellence is not merely a destination, but a continuous journey driven by passion, perseverance, and teamwork. May Concetto continue to inspire young minds, encourage bold thinking, and create an environment where curiosity thrives. I extend my best wishes to the entire team for a successful and enriching edition of Concetto, filled with learning, innovation, and memorable experiences.”',
 
     ],
     image: "/about/badal-singh.png"
@@ -64,7 +64,7 @@ export const messages = [
     name: "Rahul Kumar",
     designation: "Student Advisor, Concetto 2026",
     message: [
-      '“The future belongs to those who believe in the beauty of their dreams.” — — Eleanor Roosevelt',
+      '“It is a privilege to welcome you to Concetto 2026, the premier techno-management festival of IIT (ISM) Dhanbad. As our institute celebrates a monumental century of academic brilliance and innovation, this edition stands as a tribute to our rich legacy and a stepping stone toward a limitless future.A century of excellence has proven that progress belongs to those who dare to rethink the status quo. CONCETTO2026 stands as a testament to our institute’s enduring commitment to scientific brilliance and technical ingenuity. As part of the Advisory Committee, I am honoured to support a festival that turns ambitious concepts into tangible reality. I extend my warmest welcome to all participants. May your time here spark breakthroughs, forge lifelong connections, and inspire you to build a smarter tomorrow.”',
 
     ],
     image: "/about/rahul-kumar.png"
