@@ -85,6 +85,7 @@ export const events = [
     description:
       "A machine learning challenge focused on solving problems through data, models, and intelligent systems.",
     mode: "Offline",
+    image: "/events/convcup-ml.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSczTGuyBed05pCtxNKc_fovb4Gv2l5QwGw03Aw5drHhwi6gUw/viewform",
   },
 
@@ -117,6 +118,7 @@ export const events = [
     description:
       "An app development challenge focused on building creative and innovative mobile applications.",
     mode: "Offline",
+    image: "/events/appsurD.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdwWOSJ5E48lebqLnmXchqEbqC_C1DFSGfC6DJHLatm29C8ng/viewform",
   },
 
@@ -127,6 +129,7 @@ export const events = [
     description:
       "An information security challenge focused on cybersecurity, problem solving, and technical skills.",
     mode: "Offline",
+    image: "/events/tinas.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSez_u7IF7h3p0F0Y4fWAKCqy5pjlo9jFpl9p80J9XfLlh7HbQ/viewform",
   },
 
@@ -203,6 +206,7 @@ export const events = [
     description:
       "A technical challenge combining coding, computational thinking, and the exploration of space-related concepts.",
     mode: "Offline",
+    image: "/events/code-the-cosmos.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdNc6uuL9p2V6WqHLenLPcHMVxa3d10A-vjy9m3MWql0UqaTw/viewform",
   },
 
@@ -223,6 +227,7 @@ export const events = [
     description:
       "A fintech-focused challenge testing financial knowledge, analytical thinking, and decision making.",
     mode: "Offline",
+    image: "/events/questree.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLScsuG3fa9uePrzfe7hOskmV8nzyF4BE7DalZr3sU1EA_dPUjg/viewform",
   },
 
@@ -233,6 +238,7 @@ export const events = [
     description:
       "A finance-based competitive event centred around equity, valuation, and strategic decision making.",
     mode: "Offline",
+    image: "/events/equity-auction.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSe0AuJyah_VonZsZfXG05nHb-lhRYBxA2LGtOb1OZsc8tjAzw/viewform",
   },
 
@@ -253,6 +259,7 @@ export const events = [
     description:
       "A game development challenge focused on creativity, design, and interactive experiences.",
     mode: "Offline",
+    image: "/events/angd-game-jam.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSd6-dGfbYM_G4Ma9yFeEOkp0MGd7uEPJhQua-sB1xScTGpIRg/viewform",
   },
 
@@ -263,6 +270,7 @@ export const events = [
     description:
       "A creative challenge centred around 3D animation, visual storytelling, and digital design.",
     mode: "Offline",
+    image: "/events/angd-3d-animation.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSeqHA0yttderk7EIO-NjMEsXkRhrIkzIsTGVxtSw3-v_e0llQ/viewform",
   },
 
@@ -273,6 +281,7 @@ export const events = [
     description:
       "",
     mode: "Offline",
+    image: "/events/stunt-show.png",
     href: "#",
   },
 
@@ -283,6 +292,7 @@ export const events = [
     description:
       "An automotive technology challenge focused on autonomous navigation and engineering.",
     mode: "Offline",
+    image: "/events/auto-nav.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdnrR_Y-UnVpABHiIeJhWOZMN0eRJNjB5XVfCWb-C8NJwBmLg/viewform",
   },
 
@@ -304,6 +314,7 @@ export const events = [
     description:
       "An automotive showcase highlighting vehicles, engineering, and automotive innovation.",
     mode: "Offline",
+    image: "/events/autoexpo.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSctS1LsOcJ1hKPcWviCkS8n0stpTfjkZtSyFjfHnuHk1T7Kyw/viewform",
   },
 
@@ -314,6 +325,7 @@ export const events = [
     description:
       "An interactive challenge where participants solve puzzles, uncover clues, and work together to escape.",
     mode: "Offline",
+    image: "/events/escape-room.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSccueiwWC2vu7bAu5mG6nz1qKqTmQuGd20jJpDof9jeIQp8CA/viewform",
   },
 
@@ -324,6 +336,7 @@ export const events = [
     description:
       "A programming and algorithmic challenge focused on computational thinking and problem solving.",
     mode: "Offline",
+    image: "/events/algo-sort.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSfoteNfZ4BIECbXuXuc4dPe6-SI0csKoO5W4Ly-h29b9wcRzA/viewform",
   },
 
@@ -334,6 +347,7 @@ export const events = [
     description:
       "A quantum-themed technical challenge exploring concepts of quantum computing and technology.",
     mode: "Offline",
+    image: "/events/quantum-mania.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSd-Q9bPvwxkjvj2VHfUsfMON1xGnmSd0LVGMXfgrJBo5BDZzg/viewform",
   },
 
@@ -344,6 +358,7 @@ export const events = [
     description:
       "A quantum-focused challenge centred around innovative ideas, technical thinking, and problem solving.",
     mode: "Offline",
+    image: "/events/q-blueprint.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSfxXvIIU3nt3Oph0QYUTYQNwrDCByfp_cvG3naYQWtJ3NgBHQ/viewform",
   },
 
@@ -356,6 +371,7 @@ export const events = [
     description:
       "A mathematics-focused competition designed to test mathematical reasoning and problem-solving skills.",
     mode: "Offline",
+    image: "/events/mathalon.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSexODKL1fwQDvSY_Ft4Kxa3VJgFL_0FoZ-iAHvz9gIVMFdjfQ/viewform",
   },
 
@@ -398,6 +414,7 @@ export const events = [
     description:
       "A civil engineering themed challenge testing technical knowledge and problem-solving ability.",
     mode: "Offline",
+    image: "/events/civil-geek.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSezqSyxY_VpUGS_mbQKuLQQ9mQhK3iVJXetde4oXxGluHo2fw/viewform",
   },
 
@@ -408,6 +425,7 @@ export const events = [
     description:
       "A civil engineering competition focused on creativity, technical understanding, and engineering skills.",
     mode: "Offline",
+    image: "/events/archway-arena.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSfDRiRUnKTfHYyC6PSyZGzLe1cPkmbrXCO1QvZP0fhXMJ2b1A/viewform",
   },
 
@@ -418,6 +436,7 @@ export const events = [
     description:
       "A petroleum engineering event focused on reservoir concepts and technical understanding.",
     mode: "Offline",
+    image: "/events/reservoir-making.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSeBTfee9dWp1trn_o-T30CNZ0rEtqt64FjeUD3GfkU0BWrgLg/viewform",
   },
 
@@ -428,6 +447,7 @@ export const events = [
     description:
       "A petroleum engineering event centred around industry knowledge, technical concepts, and problem solving.",
     mode: "Offline",
+    image: "/events/spe-event.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSc9GdmE6XUHWjHZU2Ais_diInsy60TK7825chyPxQ4x0fZ2gA/viewform",
   },
 
@@ -449,6 +469,7 @@ export const events = [
     description:
       "A chemical engineering themed event focused on technical knowledge, creativity, and problem solving.",
     mode: "Offline",
+    image: "/events/alchemist.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSeGumZlCZfIZok0Mxd9sc_15VpehTrime3uczr2gLQpUKJP_g/viewform",
   },
 
@@ -471,6 +492,7 @@ export const events = [
     description:
       "A pre-fest event featuring challenges and activities ahead of Concetto.",
     mode: "Offline",
+    image: "/events/kryptos.png",
     href: "#",
   },
 
@@ -481,49 +503,54 @@ export const events = [
     description:
       "A pre-fest movie evening bringing participants together for entertainment and relaxation.",
     mode: "Offline",
+    image: "/events/movie-night.png",
     href: "#",
   },
 
   //Added Events 
 
   {
-  id: 47,
-  title: "Mechismu Overflow",
-  category: "club",
-  description:
-    "",
-  mode: "Offline",
-  href: "https://docs.google.com/forms/d/e/1FAIpQLScuess-D-OA42FgiuMlUIevsy6y2wrZk3KLIDHsfcI8Ap99mw/viewform",
+    id: 47,
+    title: "Mechismu Overflow",
+    category: "club",
+    description:
+      "",
+    mode: "Offline",
+    image: "/events/mechismu-overflow.png",
+    href: "https://docs.google.com/forms/d/e/1FAIpQLScuess-D-OA42FgiuMlUIevsy6y2wrZk3KLIDHsfcI8Ap99mw/viewform",
   },
 
   {
-  id: 48,
-  title: "SBT Quiz",
-  category: "club",
-  description:
-    "",
-  mode: "Offline",
-  href: "https://docs.google.com/forms/d/e/1FAIpQLScV31qs0QIyILLQL1AU_hwJeusJGzAxTqrRsHBdllDD67URHw/viewform",
+    id: 48,
+    title: "SBT Quiz",
+    category: "club",
+    description:
+      "",
+    mode: "Offline",
+    image: "/events/sbt-quiz.png",
+    href: "https://docs.google.com/forms/d/e/1FAIpQLScV31qs0QIyILLQL1AU_hwJeusJGzAxTqrRsHBdllDD67URHw/viewform",
   },
 
   {
-  id: 49,
-  title: "MLMTE Quiz Club Quiz",
-  category: "club",
-  description:
-    "",
-  mode: "Offline",
-  href: "https://docs.google.com/forms/d/e/1FAIpQLSdL84QU92qx3bv6GSLQe3-O93Avqj3pkNqQCbWo7sK_5SxOHg/viewform",
+    id: 49,
+    title: "MLMTE Quiz Club Quiz",
+    category: "club",
+    description:
+      "",
+    mode: "Offline",
+    image: "/events/mlmte-quiz.png",
+    href: "https://docs.google.com/forms/d/e/1FAIpQLSdL84QU92qx3bv6GSLQe3-O93Avqj3pkNqQCbWo7sK_5SxOHg/viewform",
   },
 
   {
-  id: 50,
-  title: "Code ISM",
-  category: "club",
-  description:
-    "",
-  mode: "Offline",
-  href: "https://docs.google.com/forms/d/e/1FAIpQLSfzNuxuCfZGHJPfAnYMjZlNDrrcvgWoYrxn1tslZjdhB7s2TA/viewform",
+    id: 50,
+    title: "Code ISM",
+    category: "club",
+    description:
+      "",
+    mode: "Offline",
+    image: "/events/code-ism.png",
+    href: "https://docs.google.com/forms/d/e/1FAIpQLSfzNuxuCfZGHJPfAnYMjZlNDrrcvgWoYrxn1tslZjdhB7s2TA/viewform",
   },
 
   {
@@ -533,6 +560,7 @@ export const events = [
     description:
       "",
     mode: "Offline",
+    image: "/events/comedy-night.png",
     href: "#",
   },
 
@@ -543,6 +571,7 @@ export const events = [
     description:
       "",
     mode: "Offline",
+    image: "/events/dj-night.png",
     href: "#",
   },
 
@@ -553,6 +582,7 @@ export const events = [
     description:
       "",
     mode: "Offline",
+    image: "/events/star-night.png",
     href: "#",
   },
 ];
