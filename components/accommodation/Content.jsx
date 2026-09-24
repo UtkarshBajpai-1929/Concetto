@@ -4,7 +4,8 @@ import {
   Home,
   MapPin,
 } from "lucide-react";
-
+import Passes from "./Passes";
+import { passes } from "@/data/passes";
 const notes = [
   "Accommodation will be provided in designated hostels/guest facilities.",
   "Accommodation and food charges will be mentioned in the official registration form.",
@@ -80,7 +81,7 @@ export default function Content() {
           </a>
         </div>
       </section>
-
+      <Passes passes={passes} />
       {/* ================= IMPORTANT NOTES ================= */}
 
       <section className="border-y border-[#333333] bg-[#0e0e0e]/40 px-5 py-16 md:px-10 md:py-20">
@@ -101,7 +102,7 @@ export default function Content() {
               Please read the following information before applying.
             </p>
           </div>
-
+          
           <div className="rounded-2xl border border-[#333333] bg-black p-5 md:p-7">
             <div className="space-y-4">
               {notes.map((note, index) => (

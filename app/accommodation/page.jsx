@@ -1,7 +1,8 @@
 
 import Hero from "@/components/accommodation/Hero";
 import Content from "@/components/accommodation/Content";
-
+import Passes from "@/components/accommodation/Passes";
+import { passes } from "@/data/passes";
 export const metadata = {
   title: "Accommodation | Concetto 2026",
   description:
