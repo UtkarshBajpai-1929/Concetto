@@ -198,7 +198,7 @@ export default function PartnerTypes() {
         <div className="grid grid-cols-1 gap-x-16 gap-y-2 sm:grid-cols-3 font-stretch-87%">
           
           {partnerTypes.map((partner) => (
-            <div key={partner.title} className="last:lg:col-start-2">
+            <div key={partner.title} className="last:sm:col-start-2">
               <PartnerCard key={partner.title} partner={partner} />
               </div>
             ))}
