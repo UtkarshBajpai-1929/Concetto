@@ -487,12 +487,12 @@ export const events = [
 
   {
     id: 45,
-    title: "Kryptos",
+    title: "Kryptoes",
     category: "fun",
     description:
       "A pre-fest event featuring challenges and activities ahead of Concetto.",
     mode: "Offline",
-    image: "/events/kryptos.png",
+    image: "/events/kryptoes.png",
     href: "#",
   },
 
