@@ -12,11 +12,11 @@ export const workshops = [
   // },
   {
     id: 1,
-    slug: "crispr-genomics",
-    title: "CRISPR Genomics & Personalized Medicine",
+    slug: "cancer-biology",
+    title: "Cancer Biology",
     category: "Biotechnology",
     description:
-      "Explore CRISPR genomics and personalized medicine while discovering the possibilities of modern biotechnology.",
+      "Explore cancer biology while discovering the possibilities of modern biotechnology.",
     image: "/workshops/crispr.jpg",
     mode: "Offline",
     href: "https://pages.razorpay.com/biodhanbad",
