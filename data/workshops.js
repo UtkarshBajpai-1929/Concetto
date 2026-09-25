@@ -10,28 +10,28 @@ export const workshops = [
   //   mode: "Offline",
   //   href: "#",
   // },
-  // {
-  //   id: 2,
-  //   slug: "crispr-genomics",
-  //   title: "CRISPR Genomics & Personalized Medicine",
-  //   category: "Biotechnology",
-  //   description:
-  //     "Explore CRISPR genomics and personalized medicine while discovering the possibilities of modern biotechnology.",
-  //   image: "/workshops/crispr.jpg",
-  //   mode: "Offline",
-  //   href: "#",
-  // },
-  // {
-  //   id: 3,
-  //   slug: "generative-agentic-ai",
-  //   title: "Generative & Agentic AI",
-  //   category: "Artificial Intelligence",
-  //   description:
-  //     "Explore Generative AI and Agentic AI through an intensive offline workshop at IIT Dhanbad.",
-  //   image: "/workshops/agentic_ai.jpg",
-  //   mode: "Offline",
-  //   href: "#",
-  // },
+  {
+    id: 1,
+    slug: "crispr-genomics",
+    title: "CRISPR Genomics & Personalized Medicine",
+    category: "Biotechnology",
+    description:
+      "Explore CRISPR genomics and personalized medicine while discovering the possibilities of modern biotechnology.",
+    image: "/workshops/crispr.jpg",
+    mode: "Offline",
+    href: "https://pages.razorpay.com/biodhanbad",
+  },
+  {
+    id: 2,
+    slug: "generative-agentic-ai",
+    title: "Generative & Agentic AI",
+    category: "Artificial Intelligence",
+    description:
+      "Explore Generative AI and Agentic AI through an intensive offline workshop at IIT Dhanbad.",
+    image: "/workshops/agentic_ai.jpg",
+    mode: "Offline",
+    href: "https://pages.razorpay.com/techdhanbad",
+  },
 ];
 
 export const workshopInfo = {
