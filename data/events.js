@@ -485,28 +485,6 @@ export const events = [
   //   href: "#",
   // },
 
-  {
-    id: 45,
-    title: "Kryptoes",
-    category: "fun",
-    description:
-      "A pre-fest event featuring challenges and activities ahead of Concetto.",
-    mode: "Offline",
-    image: "/events/kryptoes.png",
-    href: "#",
-  },
-
-  {
-    id: 46,
-    title: "Movie Night",
-    category: "fun",
-    description:
-      "A pre-fest movie evening bringing participants together for entertainment and relaxation.",
-    mode: "Offline",
-    image: "/events/movie-night.png",
-    href: "#",
-  },
-
   //Added Events 
 
   {
@@ -551,6 +529,27 @@ export const events = [
     mode: "Offline",
     image: "/events/code-ism.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSfzNuxuCfZGHJPfAnYMjZlNDrrcvgWoYrxn1tslZjdhB7s2TA/viewform",
+  },
+  {
+    id: 45,
+    title: "Kryptoes",
+    category: "fun",
+    description:
+      "A pre-fest event featuring challenges and activities ahead of Concetto.",
+    mode: "Offline",
+    image: "/events/kryptoes.png",
+    href: "#",
+  },
+
+  {
+    id: 46,
+    title: "Movie Night",
+    category: "fun",
+    description:
+      "A pre-fest movie evening bringing participants together for entertainment and relaxation.",
+    mode: "Offline",
+    image: "/events/movie-night.png",
+    href: "#",
   },
 
   {
