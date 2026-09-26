@@ -23,8 +23,7 @@ export const messages = [
       "May CONCETTO’26 be a celebration not only of what we know, but of the questions that awaken the mind and the ideas that shape tomorrow..",
     ],
   },
-
-  {
+    {
     name: "Prof. Arun Udai",
     designation: "Co-Convenor, Concetto 2026",
     image: "/about/prof-arun-udai.png",
@@ -36,7 +35,7 @@ export const messages = [
       "Welcome to CONCETTO 2026!"
     ],
   },
-  {
+   {
     name: "Prof. Gopi Krishna Dondapatti",
     designation: "Treasurer, Concetto 2026",
     message: [
@@ -46,14 +45,15 @@ export const messages = [
     image: "/about/prof-gopi-krishna.png"
   },
 
-  {
-    name: "Sourav Dutta",
+    {
+    name: "Rahul Kumar",
     designation: "Student Advisor, Concetto 2026",
     message: [
-      '“It is my immense pleasure to welcome you to Concetto 2026, the annual techno-management fest of IIT (ISM), Dhanbad—where ideas take shape, innovation takes flight, and technology meets purpose.I encourage every participant to explore, experiment, compete, and learn beyond the boundaries of the classroom. May this vibrant convergence inspire curiosity, nurture innovation, and empower young minds to address real-world challenges.Let us celebrate the spirit of discovery and the limitless potential of young minds.Best wishes to all participants and organizers for a remarkable and inspiring Concetto 2026.”'
+      '“It is a privilege to welcome you to Concetto 2026, the premier techno-management festival of IIT (ISM) Dhanbad. As our institute celebrates a monumental century of academic brilliance and innovation, this edition stands as a tribute to our rich legacy and a stepping stone toward a limitless future.A century of excellence has proven that progress belongs to those who dare to rethink the status quo.',
+      'CONCETTO2026 stands as a testament to our institute’s enduring commitment to scientific brilliance and technical ingenuity. As part of the Advisory Committee, I am honoured to support a festival that turns ambitious concepts into tangible reality. I extend my warmest welcome to all participants. May your time here spark breakthroughs, forge lifelong connections, and inspire you to build a smarter tomorrow.”',
 
     ],
-    image: "/about/sourav-dutta.png"
+    image: "/about/rahul_copy.png"
   },
   {
     name: "Badal Singh Naik",
@@ -64,15 +64,15 @@ export const messages = [
     ],
     image: "/about/badal-singh.png"
   },
+
   {
-    name: "Rahul Kumar",
+    name: "Sourav Dutta",
     designation: "Student Advisor, Concetto 2026",
     message: [
-      '“It is a privilege to welcome you to Concetto 2026, the premier techno-management festival of IIT (ISM) Dhanbad. As our institute celebrates a monumental century of academic brilliance and innovation, this edition stands as a tribute to our rich legacy and a stepping stone toward a limitless future.A century of excellence has proven that progress belongs to those who dare to rethink the status quo.',
-      'CONCETTO2026 stands as a testament to our institute’s enduring commitment to scientific brilliance and technical ingenuity. As part of the Advisory Committee, I am honoured to support a festival that turns ambitious concepts into tangible reality. I extend my warmest welcome to all participants. May your time here spark breakthroughs, forge lifelong connections, and inspire you to build a smarter tomorrow.”',
+      '“It is my immense pleasure to welcome you to Concetto 2026, the annual techno-management fest of IIT (ISM), Dhanbad—where ideas take shape, innovation takes flight, and technology meets purpose.I encourage every participant to explore, experiment, compete, and learn beyond the boundaries of the classroom. May this vibrant convergence inspire curiosity, nurture innovation, and empower young minds to address real-world challenges.Let us celebrate the spirit of discovery and the limitless potential of young minds.Best wishes to all participants and organizers for a remarkable and inspiring Concetto 2026.”'
 
     ],
-    image: "/about/rahul-kumar.png"
+    image: "/about/sourav-dutta.png"
   },
 
 ];
