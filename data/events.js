@@ -274,16 +274,16 @@ export const events = [
     href: "https://docs.google.com/forms/d/e/1FAIpQLSeqHA0yttderk7EIO-NjMEsXkRhrIkzIsTGVxtSw3-v_e0llQ/viewform",
   },
 
-  {
-    id: 26,
-    title: "Stunt Show",
-    category: "fun",
-    description:
-      "",
-    mode: "Offline",
-    image: "/events/stunt-show.png",
-    href: "#",
-  },
+  // {
+  //   id: 26,
+  //   title: "Stunt Show",
+  //   category: "fun",
+  //   description:
+  //     "",
+  //   mode: "Offline",
+  //   image: "/events/stunt-show.png",
+  //   href: "#",
+  // },
 
   {
     id: 27,
