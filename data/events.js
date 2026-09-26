@@ -307,16 +307,16 @@ export const events = [
     href: "https://docs.google.com/forms/d/e/1FAIpQLScsUCGj9GfukLoVypdvMPrvMdRtXaV1EW6sN6KxZXR_1zpqaQ/viewform",
   },
 
-  {
-    id: 29,
-    title: "AutoExpo",
-    category: "fun",
-    description:
-      "An automotive showcase highlighting vehicles, engineering, and automotive innovation.",
-    mode: "Offline",
-    image: "/events/autoexpo.png",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSctS1LsOcJ1hKPcWviCkS8n0stpTfjkZtSyFjfHnuHk1T7Kyw/viewform",
-  },
+  // {
+  //   id: 29,
+  //   title: "AutoExpo",
+  //   category: "fun",
+  //   description:
+  //     "An automotive showcase highlighting vehicles, engineering, and automotive innovation.",
+  //   mode: "Offline",
+  //   image: "/events/autoexpo.png",
+  //   href: "https://docs.google.com/forms/d/e/1FAIpQLSctS1LsOcJ1hKPcWviCkS8n0stpTfjkZtSyFjfHnuHk1T7Kyw/viewform",
+  // },
 
   {
     id: 30,
