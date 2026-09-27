@@ -222,13 +222,13 @@ export const events = [
 
   {
     id: 21,
-    title: "QuesTree '26",
+    title: "Apti Quest",
     category: "club",
     description:
       "A fintech-focused challenge testing financial knowledge, analytical thinking, and decision making.",
     mode: "Offline",
-    image: "/events/questree.png",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLScsuG3fa9uePrzfe7hOskmV8nzyF4BE7DalZr3sU1EA_dPUjg/viewform",
+    image: "/events/aptiquest.png",
+    href: "https://unstop.com/competitions/aptiquest-iit-dhanbad-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1760154",
   },
 
   {
@@ -582,6 +582,16 @@ export const events = [
       "",
     mode: "Offline",
     image: "/events/star-night.png",
+    href: "#",
+  },
+   {
+    id: 54,
+    title: "Garba Night",
+    category: "fun",
+    description:
+      "Garba Night — An evening of vibrant music, traditional Garba, and Dandiya, bringing everyone together to celebrate culture, rhythm, and festive spirit.",
+    mode: "Offline",
+    image: "/events/Garba.png",
     href: "#",
   },
 ];
