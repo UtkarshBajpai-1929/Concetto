@@ -40,11 +40,6 @@ export const timelineData = [
     date: "09 October 2026",
     events: [
       {
-        title: "QuesTree '26 — Fintech",
-        time: "9:00 AM – 10:00 AM",
-        venue: "To be notified",
-      },
-      {
         title: "Mathalon — MNC",
         time: "9:00 AM – 10:00 AM",
         venue: "To be notified",
@@ -58,6 +53,11 @@ export const timelineData = [
         title: "Game Zone — Team Challenges",
         time: "10:00 AM – 11:00 AM",
         venue: "To be notified",
+      },
+        {
+        title: "Apti Quest — Fintech",
+        time: "10:00 AM – 12:00 AM",
+        venue: "NLHC, IIT ISM Dhanbad",
       },
       {
         title: "Code The Cosmos — ASTC",
