@@ -76,6 +76,7 @@ export const events = [
     mode: "Offline",
     image: "/events/design-decode.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSf0r-Of_qJipnNzxYWq50Qu_fSUM4Q918Sxt4m3QBlSZlKVSQ/viewform",
+    rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit"
   },
 
   {
@@ -86,6 +87,7 @@ export const events = [
       "A machine learning challenge focused on solving problems through data, models, and intelligent systems.",
     mode: "Offline",
     image: "/events/convcup-ml.png",
+    rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSczTGuyBed05pCtxNKc_fovb4Gv2l5QwGw03Aw5drHhwi6gUw/viewform",
   },
 
@@ -97,6 +99,7 @@ export const events = [
       "A blockchain-focused technical challenge exploring decentralized technologies and innovative solutions.",
     mode: "Offline",
     image: "/events/BlockHunt.png",
+    rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdKkighjJcLM9bNtiTcFv9Iee8Pz9t-j8lM9d9wXV58afTSpw/viewform",
   },
 
@@ -108,6 +111,7 @@ export const events = [
       "A web development hackathon where participants create innovative and engaging digital experiences.",
     mode: "Offline",
     image: "/events/devdash.jpg",
+    rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdP94ZSBPRwn5-yYekEj_SXIjY4AzN7PjC2Pbh9FHyaMbTEMg/viewform",
   },
 
@@ -119,6 +123,7 @@ export const events = [
       "An app development challenge focused on building creative and innovative mobile applications.",
     mode: "Offline",
     image: "/events/appsurD.png",
+    rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdwWOSJ5E48lebqLnmXchqEbqC_C1DFSGfC6DJHLatm29C8ng/viewform",
   },
 
@@ -130,6 +135,7 @@ export const events = [
       "An information security challenge focused on cybersecurity, problem solving, and technical skills.",
     mode: "Offline",
     image: "/events/tinas.png",
+    rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSez_u7IF7h3p0F0Y4fWAKCqy5pjlo9jFpl9p80J9XfLlh7HbQ/viewform",
   },
 
@@ -141,6 +147,7 @@ export const events = [
       "A product management and consulting case challenge focused on solving real-world business problems.",
     mode: "Offline",
     image: "/events/Caseblitz.png",
+    rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdSvIrxl8SFP16c3nVU4ZvfCux_QbSUCxSosBAMZMCsHnG_jQ/viewform",
   },
 
@@ -152,6 +159,7 @@ export const events = [
       "A logical problem-solving challenge designed to test analytical thinking and reasoning.",
     mode: "Offline",
     image: "/events/logicOdyssey.png",
+    rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSckWsaTB5QKfhzriT0sWN6a5INiZnVTPsU0bNupnC5upwNP6g/viewform",
   },
 
@@ -163,6 +171,7 @@ export const events = [
       "A competitive coding challenge where participants test their programming and problem-solving abilities.",
     mode: "Offline",
     image: "/events/codewars.png",
+    rulebook: "https://docs.google.com/document/d/1MdZxBX23qUzihYFlPsadoGJfmWvsVacj/edit#bookmark=id.5a1l58a6xvd5",
     href: "https://docs.google.com/forms/d/e/1FAIpQLScyVg0RlpWugmEcvoXBjv_IioXpNF52GHYktbs1_uzpGFKDOA/viewform",
   },
 
@@ -185,6 +194,7 @@ export const events = [
       "A technical challenge designed around engineering concepts and problem solving.",
     mode: "Offline",
     image: "/events/GateCraft.png",
+    rulebook: "https://docs.google.com/document/d/1MdZxBX23qUzihYFlPsadoGJfmWvsVacj/edit#bookmark=id.5a1l58a6xvd5",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdF5yaVfEX9T-uyzHbxwZYTy5E67mTaWZsqH3ZoXlbPc6cUwA/viewform",
   },
 
@@ -196,6 +206,7 @@ export const events = [
       "A technical challenge exploring artificial intelligence and intelligent systems at the edge.",
     mode: "Offline",
     image: "/events/EdgeAi.png",
+    rulebook: "https://drive.google.com/file/d/1NM1K04y-SFi-x8o9y7VprX2pcn0oeWBO/view",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdgmnRAb94DDD-h7D3V6ijVmyUYyd6LeVDdIxv2dsH3p97YNQ/viewform",
   },
 
@@ -228,6 +239,7 @@ export const events = [
       "A fintech-focused challenge testing financial knowledge, analytical thinking, and decision making.",
     mode: "Offline",
     image: "/events/aptiquest.png",
+    rulebook: "https://docs.google.com/document/d/13a_zt-jH_XsxDDZ9VsjXCdpaQSmPCMC6p_YKtv3k3l4/edit?tab=t.0",
     href: "https://unstop.com/competitions/aptiquest-iit-dhanbad-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1760154",
   },
 
@@ -239,6 +251,7 @@ export const events = [
       "A finance-based competitive event centred around equity, valuation, and strategic decision making.",
     mode: "Offline",
     image: "/events/equity-auction.png",
+    rulebook: "https://docs.google.com/document/d/1REV4cZH4sWdGNWNmw9l6uzvRLYAyS_qIIhY3595iLNE/edit?tab=t.0",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSe0AuJyah_VonZsZfXG05nHb-lhRYBxA2LGtOb1OZsc8tjAzw/viewform",
   },
 
@@ -260,6 +273,7 @@ export const events = [
       "A game development challenge focused on creativity, design, and interactive experiences.",
     mode: "Offline",
     image: "/events/angd-game-jam.png",
+    rulebook: "https://drive.google.com/file/d/1fUYT9T9qNVWxPLWHd8co9NVShgXObfpt/view?usp=drivesdk",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSd6-dGfbYM_G4Ma9yFeEOkp0MGd7uEPJhQua-sB1xScTGpIRg/viewform",
   },
 
@@ -271,6 +285,7 @@ export const events = [
       "A creative challenge centred around 3D animation, visual storytelling, and digital design.",
     mode: "Offline",
     image: "/events/angd-3d-animation.png",
+    rulebook: "https://drive.google.com/file/d/1fEXGOvFQEKAH0X7etImMUJirPPyiQFnM/view?usp=drivesdk",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSeqHA0yttderk7EIO-NjMEsXkRhrIkzIsTGVxtSw3-v_e0llQ/viewform",
   },
 
@@ -304,6 +319,7 @@ export const events = [
       "An aerospace-themed technical challenge exploring flight, design, and engineering.",
     mode: "Offline",
     image: "/events/AeroGlide.png",
+    rulebook: "https://drive.google.com/file/d/1UxO9zgNyCwdIMEK_8ZxezVge8yYQWfUW/view",
     href: "https://docs.google.com/forms/d/e/1FAIpQLScsUCGj9GfukLoVypdvMPrvMdRtXaV1EW6sN6KxZXR_1zpqaQ/viewform",
   },
 
@@ -326,6 +342,7 @@ export const events = [
       "An interactive challenge where participants solve puzzles, uncover clues, and work together to escape.",
     mode: "Offline",
     image: "/events/escape-room.png",
+    rulebook: "https://docs.google.com/document/d/1ZEA_nnOLsifWVr4UqB_D8l7bazFjyxmU/edit?usp=drivesdk&ouid=106322911644276889507&rtpof=true&sd=true",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSccueiwWC2vu7bAu5mG6nz1qKqTmQuGd20jJpDof9jeIQp8CA/viewform",
   },
 
@@ -348,6 +365,7 @@ export const events = [
       "A quantum-themed technical challenge exploring concepts of quantum computing and technology.",
     mode: "Offline",
     image: "/events/quantum-mania.png",
+    rulebook: "https://docs.google.com/document/d/15fBdVG1mGeqaeME3uO2l67RXmTyvVFZdWdPRIxWAkQI/edit?usp=sharing",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSd-Q9bPvwxkjvj2VHfUsfMON1xGnmSd0LVGMXfgrJBo5BDZzg/viewform",
   },
 
@@ -359,6 +377,7 @@ export const events = [
       "A quantum-focused challenge centred around innovative ideas, technical thinking, and problem solving.",
     mode: "Offline",
     image: "/events/q-blueprint.png",
+    rulebook: "https://docs.google.com/document/d/1w0So6sywzHljB3kd8ncFd8QzTGnHJbc29kxJ8JDUg48/edit?usp=sharing",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSfxXvIIU3nt3Oph0QYUTYQNwrDCByfp_cvG3naYQWtJ3NgBHQ/viewform",
   },
 
@@ -372,6 +391,7 @@ export const events = [
       "A mathematics-focused competition designed to test mathematical reasoning and problem-solving skills.",
     mode: "Offline",
     image: "/events/mathalon.png",
+    rulebook: "https://docs.google.com/document/d/1GdGrTVgvlv5GpYnjvLSIe5yQG3ISZs1p/edit?usp=sharing&ouid=113931455290372617976&rtpof=true&sd=true",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSexODKL1fwQDvSY_Ft4Kxa3VJgFL_0FoZ-iAHvz9gIVMFdjfQ/viewform",
   },
 
@@ -383,6 +403,7 @@ export const events = [
       "An electronics-focused challenge centred around identifying and solving technical faults.",
     mode: "Offline",
     image: "/events/Fault Hunt.jpeg",
+    rulebook: "https://drive.google.com/file/d/1erw12jQTDZzvAPLUY6Y8e1QDNbaQHnqh/view",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSeiwkbItv5Nq71q8_zA8TBgJXyhlAip2wzGLRr8OTEnxPQKlQ/viewform",
   },
 
@@ -394,6 +415,7 @@ export const events = [
       "A technical innovation challenge encouraging participants to develop creative engineering solutions.",
     mode: "Offline",
     image: "/events/Saparkthon.jpeg",
+    rulebook: "https://drive.google.com/file/d/1XGoeOKbqw8zve-K4h1saq9LQ91wJuWGb/view",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSeBwamRY0l9qYbZauwxnG6Ir0L8JIesSPLYwnhkuhom5zpUEA/viewform",
   },
 
@@ -437,6 +459,7 @@ export const events = [
       "A petroleum engineering event focused on reservoir concepts and technical understanding.",
     mode: "Offline",
     image: "/events/reservoir-making.png",
+    rulebook: "https://drive.google.com/file/d/1pEjSRus_V5Y90rE7zuBkOs1qcw8Yed2v/view",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSeBTfee9dWp1trn_o-T30CNZ0rEtqt64FjeUD3GfkU0BWrgLg/viewform",
   },
 
@@ -448,6 +471,7 @@ export const events = [
       "A petroleum engineering event centred around industry knowledge, technical concepts, and problem solving.",
     mode: "Offline",
     image: "/events/spe-event.png",
+    rulebook: "https://docs.google.com/document/d/1JwM-sddXjfyiTjDHzsaxUMILP-PF7oaTVOOZlWS3Iv0/edit?hl=en&tab=t.0",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSc9GdmE6XUHWjHZU2Ais_diInsy60TK7825chyPxQ4x0fZ2gA/viewform",
   },
 
@@ -459,6 +483,7 @@ export const events = [
       "An environmental-themed event exploring ideas and challenges related to the environment.",
     mode: "Offline",
     image: "/events/AETHERA.png",
+    rulebook: "https://drive.google.com/file/d/1pFngxRxuzJyEnCc9T3hURBj9qNgyyMZv/view",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSf-5tEtvXaG-3uYM7wlIVuzSVSblic6kzvVEYEgskXgy2i2Dg/viewform",
   },
 
