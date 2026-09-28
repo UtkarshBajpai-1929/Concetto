@@ -10,6 +10,7 @@ export default function EventCard({
   image,
   mode = "Online",
   href = "#",
+  rulebook
 }) {
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-(--border) bg-(--surface) shadow-[0_8px_30px_rgba(0,0,0,0.25)] transition-all duration-300 hover:border-(--primary)/50 hover:shadow-[0_15px_45px_rgba(232,80,2,0.15)]">
@@ -50,17 +51,34 @@ export default function EventCard({
         </div>
 
         {/* Apply Button */}
-        {category != "fun" && (
-          <a
-          href={href}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-auto flex w-full items-center justify-center gap-4 rounded-lg bg-(--primary) px-5 py-2 text-base font-medium text-white transition-all duration-300 hover:brightness-110"
-        >
-          <ExternalLink size={21} />
-          <span>Apply Now</span>
-        </a>
-        )}
+        <div className="flex w-full gap-3">
+  {/* Rulebook Button (Secondary Style) */}
+  {rulebook && (
+    <a
+      href={rulebook}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-auto flex flex-1 items-center justify-center gap-3 rounded-xl border border-white/15 bg-white/5 px-5 py-2.5 text-base font-medium text-white shadow-sm transition-all duration-300 hover:bg-white/10 hover:brightness-110 active:scale-[0.98]"
+    >
+      <ExternalLink size={19} className="opacity-80" />
+      <span>Rulebook</span>
+    </a>
+  )}
+
+  {/* Apply Now Button (Primary Style) */}
+  {category !== "fun" && (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-auto flex flex-1 items-center justify-center gap-3 rounded-xl bg-(--primary) px-5 py-2.5 text-base font-medium text-white shadow-md shadow-primary/20 transition-all duration-300 hover:brightness-110 active:scale-[0.98]"
+    >
+      <ExternalLink size={19} />
+      <span>Apply Now</span>
+    </a>
+  )}
+</div>
+
       </div>
     </article>
   );

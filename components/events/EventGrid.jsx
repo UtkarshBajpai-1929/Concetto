@@ -12,6 +12,7 @@ export default function EventGrid({ events }) {
           image={event.image || "/events/general.png"}
           mode={event.mode}
           href={event.href}
+          rulebook={event.rulebook}
         />
       ))}
     </div>
