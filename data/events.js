@@ -16,7 +16,7 @@ export const events = [
     category: "club",
     description:
       "A high-intensity robotic battle where powerful machines equipped with crushers, launchers, and flamethrowers clash for victory.",
-    image: "/events/robowars.webp",
+    image: "/events/robowars.png",
     mode: "Offline",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSecHwG-hds8YQwvYlRvQ9EQfxBxZnNhtHOb8Ia4WEazvAqMyw/viewform",
   },
@@ -177,12 +177,12 @@ export const events = [
 
   {
     id: 16,
-    title: "Chakravyu",
+    title: "Pathfinder",
     category: "club",
     description:
       "A robotic challenge featuring technical competition, strategy, and engineering skills.",
     mode: "Offline",
-    image: "/events/roboWars.png",
+    image: "/events/path_finder.jpeg",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSfTL9X7sPZNZAnW1BcERs9v72jQXvlr99s4l89U4I8PGdyn0g/viewform",
   },
 
