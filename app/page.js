@@ -3,6 +3,7 @@ import About from "@/components/About";
 import Countdown from "@/components/CountDown";
 import Timeline from "@/components/timeline/TimeLine";
 import WhyUs from "@/components/WhyUs";
+import CampusAmbassador from "@/components/CampusAmbassador";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <About />
       <Timeline />
       <WhyUs/>
+      <CampusAmbassador/>
     </main>
   );
 }
