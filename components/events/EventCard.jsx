@@ -10,7 +10,7 @@ export default function EventCard({
   image,
   mode = "Online",
   href = "#",
-  rulebook
+  rulebook,
 }) {
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-(--border) bg-(--surface) shadow-[0_8px_30px_rgba(0,0,0,0.25)] transition-all duration-300 hover:border-(--primary)/50 hover:shadow-[0_15px_45px_rgba(232,80,2,0.15)]">
@@ -50,35 +50,36 @@ export default function EventCard({
           <span>{mode}</span>
         </div>
 
-        {/* Apply Button */}
-        <div className="flex w-full flex-col sm:flex-row gap-3">
-          {/* Rulebook Button (Secondary Style) */}
+        {/* Buttons */}
+        <div className="flex w-full flex-col gap-3 sm:flex-row">
+
+          {/* Rulebook Button */}
           {rulebook && (
             <a
-              href={href}
+              href={rulebook}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-auto flex w-full flex-1 items-center justify-center gap-3 rounded-xl border border-white/15 bg-white/5 px-5 py-3 sm:py-2.5 text-base font-medium text-white shadow-sm transition-all duration-300 hover:bg-white/10 hover:brightness-110 active:scale-[0.98]"
+              className="mt-auto flex w-full flex-1 items-center justify-center gap-3 rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-base font-medium text-white shadow-sm transition-all duration-300 hover:bg-white/10 hover:brightness-110 active:scale-[0.98] sm:py-2.5"
             >
               <ExternalLink size={19} className="opacity-80" />
               <span>Rulebook</span>
             </a>
           )}
 
-          {/* Apply Now Button (Primary Style) */}
+          {/* Apply Now Button */}
           {category !== "fun" && (
             <a
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-auto flex w-full flex-1 items-center justify-center gap-3 rounded-xl bg-(--primary) px-5 py-3 sm:py-2.5 text-base font-medium text-white shadow-md transition-all duration-300 hover:brightness-110 active:scale-[0.98]"
+              className="mt-auto flex w-full flex-1 items-center justify-center gap-3 rounded-xl bg-(--primary) px-5 py-3 text-base font-medium text-white shadow-md transition-all duration-300 hover:brightness-110 active:scale-[0.98] sm:py-2.5"
             >
               <ExternalLink size={19} />
               <span>Apply Now</span>
             </a>
           )}
-        </div>
 
+        </div>
       </div>
     </article>
   );

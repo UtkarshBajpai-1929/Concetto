@@ -19,6 +19,7 @@ export const events = [
     image: "/events/robowars.png",
     mode: "Offline",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSecHwG-hds8YQwvYlRvQ9EQfxBxZnNhtHOb8Ia4WEazvAqMyw/viewform",
+    rulebook: "https://drive.google.com/drive/folders/1gsc7fZK07vM5wbPs4Rx-mDSHeKMM6Ybv"
   },
 
   // {
