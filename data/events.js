@@ -520,31 +520,31 @@ export const events = [
     description:
       "",
     mode: "Offline",
-    image: "/events/mechismu-overflow\\.png",
+    image: "/events/mechismu-overflow.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLScuess-D-OA42FgiuMlUIevsy6y2wrZk3KLIDHsfcI8Ap99mw/viewform",
   },
 
-  {
-    id: 48,
-    title: "SBT Quiz",
-    category: "club",
-    description:
-      "",
-    mode: "Offline",
-    image: "/events/sbt-quiz.png",
-    href: "https://unstop.com/o/pGXR7zh?lb=ijyuHfE&utm_medium=Share&utm_source=quizclubiitism&utm_campaign=Quizzes",
-  },
+  // {
+  //   id: 48,
+  //   title: "SBT Quiz",
+  //   category: "club",
+  //   description:
+  //     "",
+  //   mode: "Offline",
+  //   image: "/events/sbt-quiz.png",
+  //   href: "https://unstop.com/o/pGXR7zh?lb=ijyuHfE&utm_medium=Share&utm_source=quizclubiitism&utm_campaign=Quizzes",
+  // },
 
-  {
-    id: 49,
-    title: "MLMTE Quiz Club Quiz",
-    category: "club",
-    description:
-      "",
-    mode: "Offline",
-    image: "/events/mlmte-quiz.png",
-    href: "https://unstop.com/o/G5nOQdN?lb=ijyuHfE&utm_medium=Share&utm_source=quizclubiitism&utm_campaign=Quizzes",
-  },
+  // {
+  //   id: 49,
+  //   title: "MLMTE Quiz Club Quiz",
+  //   category: "club",
+  //   description:
+  //     "",
+  //   mode: "Offline",
+  //   image: "/events/mlmte-quiz.png",
+  //   href: "https://unstop.com/o/G5nOQdN?lb=ijyuHfE&utm_medium=Share&utm_source=quizclubiitism&utm_campaign=Quizzes",
+  // },
 
   {
     id: 50,
@@ -625,7 +625,7 @@ export const events = [
 
   {
     id: 55,
-    title: "Synapse Arena",
+    title: "Synapse Arena - SBT Quiz",
     category: "club",
     description:
       "A science business and technology quiz competition that challenges participants to showcase their knowledge, problem-solving skills, and strategic thinking in a fast-paced and intellectually stimulating environment.",
@@ -636,7 +636,7 @@ export const events = [
 
   {
     id: 56,
-    title: "Terranova",
+    title: "Terranova - A sustainability and critical Minerals Quiz",
     category: "club",
     description:
       "A sustainability and critical minerals quiz competition.",

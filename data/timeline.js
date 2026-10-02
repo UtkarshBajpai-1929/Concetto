@@ -151,9 +151,9 @@ export const timelineData = [
         venue: "To be notified",
       },
       {
-        title: "MLMTE Quiz Club Quiz",
-        time: "11:00 AM – 12:00 PM",
-        venue: "To be notified",
+        title: "Terranova - A sustainability and critical Minerals Quiz",
+        time: "11:00 AM – 2:00 PM",
+        venue: "NLHC IIT ISM Dhanbad",
       },
       {
         title: "WORKSHOP",
@@ -247,9 +247,9 @@ export const timelineData = [
         venue: "To be notified",
       },
       {
-        title: "SBT Quiz — Quiz Club",
-        time: "11:00 AM – 12:00 PM",
-        venue: "To be notified",
+        title: "Synapse Arena - SBT Quiz",
+        time: "11:00 AM – 2:00 PM",
+        venue: "NLHC, IIT ISM Dhanbad",
       },
       {
         title: "Fault Hunt — ECE",
