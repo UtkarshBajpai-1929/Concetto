@@ -130,15 +130,15 @@ export const events = [
 
   {
     id: 12,
-    title: "TiNAS",
+    title: "ReCon CTF",
     category: "club",
     description:
       "An information security challenge focused on cybersecurity, problem solving, and technical skills.",
     mode: "Offline",
     image: "/events/tinas.png",
-    rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
-    href: "https://unstop.com/hackathons/reconctf26-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1760436",
-  },
+    rulebook: "https\://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
+    href: "https://unstop.com/o/gyTHUJd",
+},
 
   {
     id: 13,
