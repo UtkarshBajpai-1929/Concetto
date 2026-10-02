@@ -18,7 +18,7 @@ export const events = [
       "A high-intensity robotic battle where powerful machines equipped with crushers, launchers, and flamethrowers clash for victory.",
     image: "/events/roboWars.png",
     mode: "Offline",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSecHwG-hds8YQwvYlRvQ9EQfxBxZnNhtHOb8Ia4WEazvAqMyw/viewform",
+    href: "https://unstop.com/o/1oBLPFA",
     rulebook: "https://drive.google.com/drive/folders/1gsc7fZK07vM5wbPs4Rx-mDSHeKMM6Ybv"
   },
 
@@ -89,7 +89,7 @@ export const events = [
     mode: "Offline",
     image: "/events/convcup-ml.png",
     rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSczTGuyBed05pCtxNKc_fovb4Gv2l5QwGw03Aw5drHhwi6gUw/viewform",
+    href: "https://unstop.com/o/w7ye6zt?lb=FwkHN9ZU&utm_medium=Share&utm_source=anabfar42130&utm_campaign=Online_coding_challenge",
   },
 
   {
@@ -101,7 +101,7 @@ export const events = [
     mode: "Offline",
     image: "/events/BlockHunt.png",
     rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSdKkighjJcLM9bNtiTcFv9Iee8Pz9t-j8lM9d9wXV58afTSpw/viewform",
+    href: "https://unstop.com/p/blockhunt26-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1764178",
   },
 
   {
@@ -113,7 +113,7 @@ export const events = [
     mode: "Offline",
     image: "/events/devdash.jpg",
     rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSdP94ZSBPRwn5-yYekEj_SXIjY4AzN7PjC2Pbh9FHyaMbTEMg/viewform",
+    href: "https://unstop.com/p/devdash-26-build-break-laugh-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1761171",
   },
 
   {
@@ -137,7 +137,7 @@ export const events = [
     mode: "Offline",
     image: "/events/tinas.png",
     rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSez_u7IF7h3p0F0Y4fWAKCqy5pjlo9jFpl9p80J9XfLlh7HbQ/viewform",
+    href: "https://unstop.com/hackathons/reconctf26-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1760436",
   },
 
   {
@@ -149,7 +149,7 @@ export const events = [
     mode: "Offline",
     image: "/events/Caseblitz.png",
     rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSdSvIrxl8SFP16c3nVU4ZvfCux_QbSUCxSosBAMZMCsHnG_jQ/viewform",
+    href: "https://unstop.com/competitions/caseblitz-2026-iit-dhanbad-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1755181",
   },
 
   {
@@ -161,7 +161,7 @@ export const events = [
     mode: "Offline",
     image: "/events/logicOdyssey.png",
     rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSckWsaTB5QKfhzriT0sWN6a5INiZnVTPsU0bNupnC5upwNP6g/viewform",
+    href: "https://unstop.com/o/uDpFxVQ?lb=cS8pt50O&utm_medium=Share&utm_source=compeclu8084&utm_campaign=Quizzes",
   },
 
   {
@@ -173,7 +173,7 @@ export const events = [
     mode: "Offline",
     image: "/events/codewars.png",
     rulebook: "https://docs.google.com/document/d/1MdZxBX23qUzihYFlPsadoGJfmWvsVacj/edit#bookmark=id.5a1l58a6xvd5",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLScyVg0RlpWugmEcvoXBjv_IioXpNF52GHYktbs1_uzpGFKDOA/viewform",
+    href: "https://unstop.com/o/h1lT8PA?lb=cS8pt50O&utm_medium=Share&utm_source=compeclu8084&utm_campaign=Online_coding_challenge",
   },
 
   {
@@ -196,7 +196,7 @@ export const events = [
     mode: "Offline",
     image: "/events/GateCraft.png",
     rulebook: "https://docs.google.com/document/d/1MdZxBX23qUzihYFlPsadoGJfmWvsVacj/edit#bookmark=id.5a1l58a6xvd5",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSdF5yaVfEX9T-uyzHbxwZYTy5E67mTaWZsqH3ZoXlbPc6cUwA/viewform",
+    href: "https://unstop.com/competitions/gatecraft-the-redstone-logic-challenge-electronics-iot-club-iit-ism-dhanbad-1762367",
   },
 
   {
@@ -208,7 +208,7 @@ export const events = [
     mode: "Offline",
     image: "/events/EdgeAi.png",
     rulebook: "https://drive.google.com/file/d/1NM1K04y-SFi-x8o9y7VprX2pcn0oeWBO/view",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSdgmnRAb94DDD-h7D3V6ijVmyUYyd6LeVDdIxv2dsH3p97YNQ/viewform",
+    href: "https://unstop.com/hackathons/edge-ai-challenge-electronics-iot-club-iit-ism-dhanbad-1762328",
   },
 
   {
@@ -253,7 +253,7 @@ export const events = [
     mode: "Offline",
     image: "/events/equity-auction.png",
     rulebook: "https://docs.google.com/document/d/1REV4cZH4sWdGNWNmw9l6uzvRLYAyS_qIIhY3595iLNE/edit?tab=t.0",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSe0AuJyah_VonZsZfXG05nHb-lhRYBxA2LGtOb1OZsc8tjAzw/viewform",
+    href: "https://unstop.com/competitions/equity-auction-iit-dhanbad-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1760135?lb=logged_out_user%3Futm_medium%3DShare&utm_source=competitions&utm_campaign=Logged_out_user",
   },
 
   // {
@@ -275,7 +275,7 @@ export const events = [
     mode: "Offline",
     image: "/events/angd-game-jam.png",
     rulebook: "https://drive.google.com/file/d/1fUYT9T9qNVWxPLWHd8co9NVShgXObfpt/view?usp=drivesdk",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSd6-dGfbYM_G4Ma9yFeEOkp0MGd7uEPJhQua-sB1xScTGpIRg/viewform",
+    href: "https://unstop.com/o/8uHjDJP",
   },
 
   {
@@ -287,7 +287,7 @@ export const events = [
     mode: "Offline",
     image: "/events/angd-3d-animation.png",
     rulebook: "https://drive.google.com/file/d/1fEXGOvFQEKAH0X7etImMUJirPPyiQFnM/view?usp=drivesdk",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSeqHA0yttderk7EIO-NjMEsXkRhrIkzIsTGVxtSw3-v_e0llQ/viewform",
+    href: "https://unstop.com/o/Wnj6HrA",
   },
 
   // {
@@ -297,7 +297,7 @@ export const events = [
   //   description:
   //     "",
   //   mode: "Offline",
-  //   image: "/events/stunt-show.png",
+  //   image: "/events/stunt-show\\.png",
   //   href: "#",
   // },
 
@@ -321,7 +321,7 @@ export const events = [
     mode: "Offline",
     image: "/events/AeroGlide.png",
     rulebook: "https://drive.google.com/file/d/1UxO9zgNyCwdIMEK_8ZxezVge8yYQWfUW/view",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLScsUCGj9GfukLoVypdvMPrvMdRtXaV1EW6sN6KxZXR_1zpqaQ/viewform",
+    href: "https://unstop.com/o/6v9aQ8m?lb=logged_out_user?utm_medium=Share&utm_source=competitions&utm_campaign=Logged_out_user",
   },
 
   // {
@@ -367,7 +367,7 @@ export const events = [
     mode: "Offline",
     image: "/events/quantum-mania.png",
     rulebook: "https://docs.google.com/document/d/15fBdVG1mGeqaeME3uO2l67RXmTyvVFZdWdPRIxWAkQI/edit?usp=sharing",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSd-Q9bPvwxkjvj2VHfUsfMON1xGnmSd0LVGMXfgrJBo5BDZzg/viewform",
+    href: "https://unstop.com/quiz/quantum-mania-indian-institute-of-technology-indian-school-of-mines-dhanbad-1763529",
   },
 
   {
@@ -379,7 +379,7 @@ export const events = [
     mode: "Offline",
     image: "/events/q-blueprint.png",
     rulebook: "https://docs.google.com/document/d/1w0So6sywzHljB3kd8ncFd8QzTGnHJbc29kxJ8JDUg48/edit?usp=sharing",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSfxXvIIU3nt3Oph0QYUTYQNwrDCByfp_cvG3naYQWtJ3NgBHQ/viewform",
+    href: "https://unstop.com/hackathons/qblueprint-indian-institute-of-technology-indian-school-of-mines-dhanbad-1762752",
   },
 
   // Departmental Events
@@ -393,7 +393,7 @@ export const events = [
     mode: "Offline",
     image: "/events/mathalon.png",
     rulebook: "https://docs.google.com/document/d/1GdGrTVgvlv5GpYnjvLSIe5yQG3ISZs1p/edit?usp=sharing&ouid=113931455290372617976&rtpof=true&sd=true",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSexODKL1fwQDvSY_Ft4Kxa3VJgFL_0FoZ-iAHvz9gIVMFdjfQ/viewform",
+    href: "https://unstop.com/quiz/mathalon-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1763444",
   },
 
   {
@@ -511,7 +511,7 @@ export const events = [
   //   href: "#",
   // },
 
-  //Added Events 
+  //Added Events
 
   {
     id: 47,
@@ -520,7 +520,7 @@ export const events = [
     description:
       "",
     mode: "Offline",
-    image: "/events/mechismu-overflow.png",
+    image: "/events/mechismu-overflow\\.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLScuess-D-OA42FgiuMlUIevsy6y2wrZk3KLIDHsfcI8Ap99mw/viewform",
   },
 
@@ -532,7 +532,7 @@ export const events = [
       "",
     mode: "Offline",
     image: "/events/sbt-quiz.png",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLScV31qs0QIyILLQL1AU_hwJeusJGzAxTqrRsHBdllDD67URHw/viewform",
+    href: "https://unstop.com/o/pGXR7zh?lb=ijyuHfE&utm_medium=Share&utm_source=quizclubiitism&utm_campaign=Quizzes",
   },
 
   {
@@ -543,7 +543,7 @@ export const events = [
       "",
     mode: "Offline",
     image: "/events/mlmte-quiz.png",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSdL84QU92qx3bv6GSLQe3-O93Avqj3pkNqQCbWo7sK_5SxOHg/viewform",
+    href: "https://unstop.com/o/G5nOQdN?lb=ijyuHfE&utm_medium=Share&utm_source=quizclubiitism&utm_campaign=Quizzes",
   },
 
   {
@@ -556,6 +556,7 @@ export const events = [
     image: "/events/code-ism.png",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSfzNuxuCfZGHJPfAnYMjZlNDrrcvgWoYrxn1tslZjdhB7s2TA/viewform",
   },
+
   {
     id: 45,
     title: "Kryptoes",
@@ -610,7 +611,8 @@ export const events = [
     image: "/events/star-night.png",
     href: "#",
   },
-   {
+
+  {
     id: 54,
     title: "Garba Night",
     category: "fun",
@@ -620,6 +622,7 @@ export const events = [
     image: "/events/Garba.png",
     href: "#",
   },
+
   {
     id: 55,
     title: "Synapse Arena",
@@ -628,9 +631,10 @@ export const events = [
       "A science business and technology quiz competition that challenges participants to showcase their knowledge, problem-solving skills, and strategic thinking in a fast-paced and intellectually stimulating environment.",
     mode: "Offline",
     image: "/events/synapse.jpeg",
-    href: "https://unstop.com/quiz/synapse-arena-a-science-business-and-technology-quiz-indian-institute-of-technology-indian-school-of-mines-iit-ism--1764638?lb=ijyuHfE&utm_medium=Share&utm_source=quizclubiitism&utm_campaign=Quizzes",
+    href: "https://unstop.com/o/pGXR7zh?lb=ijyuHfE&utm_medium=Share&utm_source=quizclubiitism&utm_campaign=Quizzes",
   },
-   {
+
+  {
     id: 56,
     title: "Terranova",
     category: "club",
@@ -638,9 +642,10 @@ export const events = [
       "A sustainability and critical minerals quiz competition.",
     mode: "Offline",
     image: "/events/terranova.jpeg",
-    href: "https://unstop.com/quiz/terranova-a-sustainability-and-critical-minerals-quiz-indian-institute-of-technology-indian-school-of-mines-iit-ism-1764654?lb=ijyuHfE&utm_medium=Share&utm_source=quizclubiitism&utm_campaign=Quizzes",
+    href: "https://unstop.com/o/G5nOQdN?lb=ijyuHfE&utm_medium=Share&utm_source=quizclubiitism&utm_campaign=Quizzes",
   },
-   {
+
+  {
     id: 57,
     title: "Crack the Crude",
     category: "club",
