@@ -114,8 +114,8 @@ export const timelineData = [
         time: "5:00 PM – 6:00 PM",
         venue: "To be notified",
       },
-      {
-        title: "COMEDY NIGHT",
+         {
+        title: "DJ NIGHT",
         time: "8:00 PM – 11:00 PM",
         venue: "To be notified",
       },
@@ -210,8 +210,8 @@ export const timelineData = [
         time: "6:00 PM – 7:00 PM",
         venue: "To be notified",
       },
-      {
-        title: "DJ NIGHT",
+          {
+        title: "COMEDY NIGHT",
         time: "8:00 PM – 11:00 PM",
         venue: "To be notified",
       },
