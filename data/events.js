@@ -620,4 +620,34 @@ export const events = [
     image: "/events/Garba.png",
     href: "#",
   },
+  {
+    id: 55,
+    title: "Synapse Arena",
+    category: "club",
+    description:
+      "A science business and technology quiz competition that challenges participants to showcase their knowledge, problem-solving skills, and strategic thinking in a fast-paced and intellectually stimulating environment.",
+    mode: "Offline",
+    image: "/events/synapse.jpeg",
+    href: "https://unstop.com/quiz/synapse-arena-a-science-business-and-technology-quiz-indian-institute-of-technology-indian-school-of-mines-iit-ism--1764638?lb=ijyuHfE&utm_medium=Share&utm_source=quizclubiitism&utm_campaign=Quizzes",
+  },
+   {
+    id: 56,
+    title: "Terranova",
+    category: "club",
+    description:
+      "A sustainability and critical minerals quiz competition.",
+    mode: "Offline",
+    image: "/events/terranova.jpeg",
+    href: "https://unstop.com/quiz/terranova-a-sustainability-and-critical-minerals-quiz-indian-institute-of-technology-indian-school-of-mines-iit-ism-1764654?lb=ijyuHfE&utm_medium=Share&utm_source=quizclubiitism&utm_campaign=Quizzes",
+  },
+   {
+    id: 57,
+    title: "Crack the Crude",
+    category: "club",
+    description:
+      "The Reservoir Making Competition is a hands-on technical event designed to introduce students to fundamental concepts of Reservoir Engineering through an interactive physical model.",
+    mode: "Offline",
+    image: "/events/crude.jpeg",
+    href: "https://unstop.com/competitions/crack-the-crude-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1763878?lb=eoW1e6zw&utm_medium=Share&utm_source=kumarhar7160&utm_campaign=General_competition%5C",
+  },
 ];
