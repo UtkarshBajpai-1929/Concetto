@@ -88,7 +88,7 @@ export const events = [
       "A machine learning challenge focused on solving problems through data, models, and intelligent systems.",
     mode: "Offline",
     image: "/events/convcup-ml.png",
-    rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
+    rulebook: "https://docs.google.com/document/d/1thhtY0GlFooF0wh9xL2wJHPLcXu-LcQx/edit",
     href: "https://unstop.com/o/w7ye6zt?lb=FwkHN9ZU&utm_medium=Share&utm_source=anabfar42130&utm_campaign=Online_coding_challenge",
   },
 
@@ -100,7 +100,7 @@ export const events = [
       "A blockchain-focused technical challenge exploring decentralized technologies and innovative solutions.",
     mode: "Offline",
     image: "/events/BlockHunt.png",
-    rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
+    rulebook: "https://docs.google.com/document/d/12kAUVEZoxVBbO9Nb2yXh6c7IBpPxdwr3/edit?usp=sharing&ouid=117753938559244772600&rtpof=true&sd=true",
     href: "https://unstop.com/p/blockhunt26-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1764178",
   },
 
@@ -112,7 +112,7 @@ export const events = [
       "A web development hackathon where participants create innovative and engaging digital experiences.",
     mode: "Offline",
     image: "/events/devdash.jpg",
-    rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
+    rulebook: "https://docs.google.com/document/d/1un6-WUoBhB1c3IB9sWOdpw2HIZRfzscZ/edit?usp=sharing&ouid=112613876546753772077&rtpof=true&sd=true",
     href: "https://unstop.com/p/devdash-26-build-break-laugh-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1761171",
   },
 
@@ -124,7 +124,7 @@ export const events = [
       "An app development challenge focused on building creative and innovative mobile applications.",
     mode: "Offline",
     image: "/events/appsurD.png",
-    rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
+    rulebook: "https://docs.google.com/document/d/18HZgXZs-iLQOFtBHURDe55jXUR4LDG9B/edit?usp=sharing&ouid=112241734737479008315&rtpof=true&sd=true",
     href: "https://docs.google.com/forms/d/e/1FAIpQLSdwWOSJ5E48lebqLnmXchqEbqC_C1DFSGfC6DJHLatm29C8ng/viewform",
   },
 
@@ -136,7 +136,7 @@ export const events = [
       "An information security challenge focused on cybersecurity, problem solving, and technical skills.",
     mode: "Offline",
     image: "/events/tinas.png",
-    rulebook: "https\://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
+    rulebook: "https://docs.google.com/document/d/1LvI3S9TZn4zQpAslVQ-6Ru5saE1w1fnTD_Xrdq49XB4/edit?usp=sharing",
     href: "https://unstop.com/o/gyTHUJd",
 },
 
@@ -148,7 +148,7 @@ export const events = [
       "A product management and consulting case challenge focused on solving real-world business problems.",
     mode: "Offline",
     image: "/events/Caseblitz.png",
-    rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
+    rulebook: "https://drive.google.com/file/d/1GyYOaGVmQZhCZvyObM99j8Wy2wEErlS3/view?usp=sharing",
     href: "https://unstop.com/competitions/caseblitz-2026-iit-dhanbad-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1755181",
   },
 
@@ -160,7 +160,7 @@ export const events = [
       "A logical problem-solving challenge designed to test analytical thinking and reasoning.",
     mode: "Offline",
     image: "/events/logicOdyssey.png",
-    rulebook: "https://docs.google.com/document/d/1x0ruIEpvWRkEbgEhrqcbLW6YPnUez_Ng/edit",
+    rulebook: "https://docs.google.com/document/d/1WYPSjvhgbtxNUSOyx0kb6k5dx7_jGywL/edit?usp=sharing&ouid=114871654953852545282&rtpof=true&sd=true",
     href: "https://unstop.com/o/uDpFxVQ?lb=cS8pt50O&utm_medium=Share&utm_source=compeclu8084&utm_campaign=Quizzes",
   },
 
@@ -195,7 +195,7 @@ export const events = [
       "A technical challenge designed around engineering concepts and problem solving.",
     mode: "Offline",
     image: "/events/GateCraft.png",
-    rulebook: "https://docs.google.com/document/d/1MdZxBX23qUzihYFlPsadoGJfmWvsVacj/edit#bookmark=id.5a1l58a6xvd5",
+    rulebook: "https://drive.google.com/file/d/1uAfVNoUvl4e2EMy6az0VkhRHphxQvdXw/view?usp=drive_link",
     href: "https://unstop.com/competitions/gatecraft-the-redstone-logic-challenge-electronics-iot-club-iit-ism-dhanbad-1762367",
   },
 
