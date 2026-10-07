@@ -438,7 +438,7 @@ export const events = [
       "A civil engineering themed challenge testing technical knowledge and problem-solving ability.",
     mode: "Offline",
     image: "/events/civil-geek.png",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSezqSyxY_VpUGS_mbQKuLQQ9mQhK3iVJXetde4oXxGluHo2fw/viewform",
+    href: "https://unstop.com/competitions/seek-the-civil-geek-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1766892",
   },
 
   {
@@ -449,7 +449,7 @@ export const events = [
       "A civil engineering competition focused on creativity, technical understanding, and engineering skills.",
     mode: "Offline",
     image: "/events/archway-arena.png",
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSfDRiRUnKTfHYyC6PSyZGzLe1cPkmbrXCO1QvZP0fhXMJ2b1A/viewform",
+    href: "https://unstop.com/competitions/archway-arena-indian-institute-of-technology-indian-school-of-mines-iit-ism-dhanbad-1765834",
   },
 
   {
